@@ -4,6 +4,9 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/walid798/llms-in-medicine?style=social)](https://github.com/walid798/llms-in-medicine)
+[![Papers](https://img.shields.io/badge/Papers-47-blue)](README.md)  <!-- Need to be updated after adding extra papers -->
+[![Categories](https://img.shields.io/badge/Categories-9-green)](README.md)
+[![Updated](https://img.shields.io/badge/Updated-April%202025-orange)](CHANGELOG.md)
 
 **A curated repository accompanying our systematic survey:**
 
