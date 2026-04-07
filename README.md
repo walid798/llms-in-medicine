@@ -168,3 +168,17 @@ synthesizing **47 studies** on LLMs in clinical medicine, organized around
 | 2025 | **RAG-based Gastric Pathology Report Generation** | Proposed method | *Computers in Biology and Medicine* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
 | 2025 | **Structured Label-Conditioned Bladder Pathology Reports** | MIL + T5 | *MICCAI 2025* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
 
+---
+
+#### Medical Visual Question Answering
+
+| Year | Title | Model | Venue | Links |
+|------|-------|-------|-------|-------|
+| 2023 | **LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine** | LLaVA-Med | *NeurIPS 2023* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2306.00890) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/microsoft/LLaVA-Med) ![SOTA](https://img.shields.io/badge/-SOTA-red) |
+| 2024 | **PMC-VQA: Visual Instruction Tuning for Medical VQA** | PMC-VQA | *Communications Medicine* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s43856-024-00709-2) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/xiaoman-zhang/PMC-VQA) |
+| 2024 | **Candidate Answer Set Guided Medical VQA** | CH-ICL | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2408.10048) |
+| 2024 | **Falcon Med-VQA: Uncertainty-aware Clinical QA** | Falcon Med-VQA | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+| 2025 | **MiniMedGPT: Parameter-Efficient Medical VQA** | MiniMedGPT (EVA-CLIP + LLaMA2-7B) | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+| 2025 | **FAVP: Fine-grained Adaptive Visual Prompts for Generative MedVQA** | FAVP (ViT-G/14 + Vicuna-7B) | *AAAI 2025* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://github.com/OpenMICG/FAVP) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/OpenMICG/FAVP) |
+| 2025 | **Structural Causal Models and LLMs for Medical VQA** | CIF (CLIP + LLaMA 7B/13B) | *IEEE Transactions* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+
