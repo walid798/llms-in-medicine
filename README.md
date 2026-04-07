@@ -134,3 +134,14 @@ synthesizing **47 studies** on LLMs in clinical medicine, organized around
 | 2025 | **Cancer Type and Staging from Pathology Reports** | Path-llama3.1 | *J. Pathology Informatics* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) ![External](https://img.shields.io/badge/Val-External-orange) |
 | 2025 | **Gynecologic Oncology Registry Automation** | Gemini 1.5 / Qwen2.5 72B | *Gynecologic Oncology* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) ![External](https://img.shields.io/badge/Val-External-orange) |
 
+---
+
+#### Clinical Text Summarization
+
+| Year | Title | Model | Venue | Links |
+|------|-------|-------|-------|-------|
+| 2023 | **GPT-4 for Lung Cancer Phenotype Extraction** | GPT-4 | *JAMIA* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+| 2024 | **Integration of LLMs for Clinical Note Summarization** | Domain-adapted LLM | *npj Digital Medicine* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+| 2024 | **PEFT for Patient History-Aware Radiology Summarization** | PEFT LLM | *Radiology* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+| 2025 | **Physician-Quality Discharge Summary Generation** | GPT-4 | *NEJM AI* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+
