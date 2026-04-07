@@ -29,3 +29,13 @@
 - [How to Contribute](#-how-to-contribute)
 - [Citation](#-citation)
 
+---
+
+## 🆕 What's New
+
+| Date | Update |
+|------|--------|
+| 2025-04 | 🎉 Repository launched alongside survey submission to AI Review (Springer) |
+| 2026-03 | 47 studies added across 9 task categories |
+| 2026-01 | Benchmark leaderboard added for MedQA, VQA-RAD, and SLAKE |
+
