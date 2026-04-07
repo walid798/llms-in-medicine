@@ -79,3 +79,18 @@ synthesizing **47 studies** on LLMs in clinical medicine, organized around
 | ![Prospective](https://img.shields.io/badge/Val-Prospective-purple) | Prospective clinical validation |
 | ![External](https://img.shields.io/badge/Val-External-orange) | External multi-site validation |
 
+---
+
+### 📝 Text-Based Applications
+
+#### Clinical Documentation & Information Extraction
+
+| Year | Title | Model | Venue | Links |
+|------|-------|-------|-------|-------|
+| 2022 | **GatorTron: A Large Clinical Language Model to Unlock Patient Information from Unstructured EHRs** | GatorTron (8.9B) | *npj Digital Medicine* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41746-022-00742-2) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/uf-hobi-informatics-lab/GatorTron) |
+| 2023 | **Health System-Scale Language Models Are All-Purpose Prediction Engines** | NYUTron | *Nature* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41586-023-06160-y) ![Prospective](https://img.shields.io/badge/Val-Prospective-purple) |
+| 2024 | **Large Language Models to Identify Social Determinants of Health in EHRs** | Flan-T5 XL/XXL | *npj Digital Medicine* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41746-023-00970-0) ![External](https://img.shields.io/badge/Val-External-orange) |
+| 2025 | **Open-Source LLM for Treatment Pathway Reconstruction** | Hybrid LLM (UMLS) | *J. Biomedical Informatics* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) ![External](https://img.shields.io/badge/Val-External-orange) |
+| 2025 | **Automated Extraction from German Discharge Letters** | GPT-4 | *Preprint* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+
+
