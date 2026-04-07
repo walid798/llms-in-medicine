@@ -62,7 +62,7 @@ explicitly frame itself around personalization.
 
 **Q: How do I cite this survey?**
 ```bibtex
-@article{mohamed2025llms,
+@article{...,
   title     = {Large Language Models in Clinical Medicine ---
                A Systematic Review of Multimodal Architectures,
                Benchmarks, and Personalized Healthcare Applications},
