@@ -192,3 +192,15 @@ synthesizing **47 studies** on LLMs in clinical medicine, organized around
 | 2025 | **MedVisionLlama: LLM-Enhanced ViT for 3D Segmentation** | MedVisionLlama (Llama-3.1-8B + ViT) | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
 | 2025 | **Zeus: Zero-shot LLM Instructions for SAM-based Segmentation** | Zeus (Vicuna + SAM) | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
 
+---
+
+#### Multimodal Diagnosis & Clinical Reasoning
+
+| Year | Title | Model | Venue | Links |
+|------|-------|-------|-------|-------|
+| 2024 | **GPT-4V for Zero-shot Chest X-ray Interpretation** | GPT-4V | *Radiology* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+| 2024 | **In-context Learning for Histopathology Classification** | GPT-4V | *Nature Medicine* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2312.02510) |
+| 2024 | **SkinGPT-4: Dermatological Diagnosis from Patient Photos** | SkinGPT-4 (LLaMA-2-13B + ViT) | *Nature Communications* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2304.10691) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/JoshuaChou2018/SkinGPT-4) |
+| 2025 | **M3FM: Multilingual Multimodal Medical Foundation Model** | M3FM | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+| 2025 | **Multimodal LLMs for Laryngeal Cancer Surgical Decision Support** | Claude 3.5 Sonnet + 5 MLLMs | *Head & Neck* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+
