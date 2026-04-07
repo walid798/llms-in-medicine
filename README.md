@@ -182,3 +182,13 @@ synthesizing **47 studies** on LLMs in clinical medicine, organized around
 | 2025 | **FAVP: Fine-grained Adaptive Visual Prompts for Generative MedVQA** | FAVP (ViT-G/14 + Vicuna-7B) | *AAAI 2025* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://github.com/OpenMICG/FAVP) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/OpenMICG/FAVP) |
 | 2025 | **Structural Causal Models and LLMs for Medical VQA** | CIF (CLIP + LLaMA 7B/13B) | *IEEE Transactions* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
 
+---
+
+#### LLM-Guided Image Segmentation
+
+| Year | Title | Model | Venue | Links |
+|------|-------|-------|-------|-------|
+| 2025 | **LLM4Seg: Pre-trained LLM Layers for Medical Segmentation** | LLM4Seg (LLaMA3.2-1B / DeepSeek) | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) [![Code](https://img.shields.io/badge/Code-Available-blue)](#) |
+| 2025 | **MedVisionLlama: LLM-Enhanced ViT for 3D Segmentation** | MedVisionLlama (Llama-3.1-8B + ViT) | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+| 2025 | **Zeus: Zero-shot LLM Instructions for SAM-based Segmentation** | Zeus (Vicuna + SAM) | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+
