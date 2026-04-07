@@ -299,3 +299,23 @@ the Add Paper template.
 
 Full guidelines in [CONTRIBUTING.md](CONTRIBUTING.md).
 
+
+---
+
+## 📖 Citation
+
+If this repository or survey is useful for your research, please cite:
+```bibtex
+@article{,
+  
+}
+```
+
+---
+
+
+
+⭐ **Star this repo if you find it useful**
+
+[![GitHub stars](https://img.shields.io/github/stars/walid798/llms-in-medicine?style=social)](https://github.com/walid798/llms-in-medicine)
+
