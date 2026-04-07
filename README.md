@@ -204,3 +204,42 @@ synthesizing **47 studies** on LLMs in clinical medicine, organized around
 | 2025 | **M3FM: Multilingual Multimodal Medical Foundation Model** | M3FM | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
 | 2025 | **Multimodal LLMs for Laryngeal Cancer Surgical Decision Support** | Claude 3.5 Sonnet + 5 MLLMs | *Head & Neck* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
 
+
+---
+
+## 🏆 Benchmark Leaderboard
+
+> Results extracted from included studies.
+> To update, please submit a PR — see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+### MedQA (USMLE) — Text QA
+
+| Rank | Model | Accuracy | Year | Reference |
+|------|-------|----------|------|-----------|
+| 🥇 | GPT-4 | 86.7% | 2023 | [Nori et al.](https://arxiv.org/abs/2311.16452) |
+| 🥈 | Med-PaLM 2 | 86.5% | 2023 | [Singhal et al.](https://arxiv.org/abs/2305.09617) |
+| 🥉 | Med-PaLM | 67.6% | 2022 | [Singhal et al.](https://www.nature.com/articles/s41586-023-06291-2) |
+
+### VQA-RAD — Closed-ended Accuracy
+
+| Rank | Model | Accuracy | Year | Reference |
+|------|-------|----------|------|-----------|
+| 🥇 | CH-ICL | 77.08% | 2024 | [Liang et al.](#) |
+| 🥈 | PMC-VQA | ~78% | 2024 | [Zhang et al.](#) |
+| 🥉 | MiniMedGPT | ~75% | 2025 | [Alsabbagh et al.](#) |
+
+### SLAKE — Open-ended Accuracy
+
+| Rank | Model | Accuracy | Year | Reference |
+|------|-------|----------|------|-----------|
+| 🥇 | CH-ICL | 88.12% | 2024 | [Liang et al.](#) |
+| 🥈 | PMC-VQA | ~84% | 2024 | [Zhang et al.](#) |
+| 🥉 | MiniMedGPT | ~82% | 2025 | [Alsabbagh et al.](#) |
+
+### MIMIC-CXR — Radiology Report Generation
+
+| Rank | Model | ROUGE-L | Year | Reference |
+|------|-------|---------|------|-----------|
+| 🥇 | Flamingo-CXR | 77.7% pref. | 2024 | [Tanno et al.](#) |
+| 🥈 | R2GenGPT | Competitive SOTA | 2023 | [Wang et al.](#) |
+
