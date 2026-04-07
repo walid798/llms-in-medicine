@@ -105,6 +105,3 @@ covering architecture, scale, pretraining, adaptation method, and availability.
 |--------|-------|--------|
 | ✅ Fully open | 16 | GatorTron, BioBERT, BioGPT, BiomedRAG, Flan-T5, LLaVA-Med, PMC-VQA, FAVP, LLM4Seg, ChatDoctor, Mental-LLM, R2GenGPT, BrainGPT, SkinGPT-4, DeepSeek-based, LLaMA-based |
 | ❌ Closed / proprietary | 20+ | GPT-4, GPT-3.5, Claude, Gemini, NYUTron, Flamingo-CXR, most clinical fine-tunes |
-
-> **Note:** When adding new papers, update the relevant table and
-> the open source summary count at the bottom.
