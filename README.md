@@ -14,3 +14,18 @@
 >
 
 ## If you find this repository useful, please consider giving it a ⭐
+
+---
+
+## 📋 Table of Contents
+
+- [What's New](#-whats-new)
+- [Survey Overview](#-survey-overview)
+- [Text-Based Applications](#-text-based-applications)
+- [Multimodal Applications](#-multimodal-applications)
+- [Benchmark Leaderboard](#-benchmark-leaderboard)
+- [Datasets and Resources](#-datasets-and-resources)
+- [Related Surveys](#-related-surveys)
+- [How to Contribute](#-how-to-contribute)
+- [Citation](#-citation)
+
