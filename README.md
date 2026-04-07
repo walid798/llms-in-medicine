@@ -103,3 +103,19 @@ synthesizing **47 studies** on LLMs in clinical medicine, organized around
 | 2020 | **BioBERT: A Pre-trained Biomedical Language Representation Model** | BioBERT | *Bioinformatics* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://academic.oup.com/bioinformatics/article/36/4/1234/5566506) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/dmis-lab/biobert) |
 | 2022 | **BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation** | BioGPT | *Briefings in Bioinformatics* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://academic.oup.com/bib/article/23/6/bbac409/6713511) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/microsoft/BioGPT) |
 | 2025 | **BiomedRAG: A Retrieval-Augmented LLM for Biomedicine** | BiomedRAG (LLaMA2 / MedLLaMA-13B) | *Preprint* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) [![Code](https://img.shields.io/badge/Code-Available-blue)](#) |
+
+
+
+---
+
+#### Clinical Decision Support & Question Answering
+
+| Year | Title | Model | Venue | Links |
+|------|-------|-------|-------|-------|
+| 2023 | **Large Language Models Encode Clinical Knowledge** | Med-PaLM (Flan-PaLM) | *Nature* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41586-023-06291-2) ![SOTA](https://img.shields.io/badge/-SOTA-red) |
+| 2023 | **Can Generalist Foundation Models Outcompete Special-Purpose Tuning?** | GPT-4 | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2311.16452) |
+| 2023 | **ChatDoctor: A Medical Chat Model Fine-Tuned on LLaMA** | ChatDoctor (LLaMA-7B) | *Cureus* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.cureus.com/articles/152858) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/Kent0n-Li/ChatDoctor) |
+| 2024 | **Mental-LLM: Leveraging LLMs for Mental Health Prediction** | Mental-LLM | *ACM SIGCHI* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2307.14385) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/neuhai/Mental-LLM) |
+| 2025 | **Evaluating GPT-4 for Radiology Patient Education** | GPT-4 | *European Radiology* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+
+
