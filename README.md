@@ -271,3 +271,15 @@ Full annotated table with access labels in [papers/datasets.md](papers/datasets.
 | Med. Seg. Decathlon | Multi-organ Seg. | Image | Open |
 | TCGA | Cancer Subtyping | Multi-omics + Clinical | Open |
 
+---
+
+## 📚 Related Surveys
+
+| Title | Venue | Year | Link |
+|-------|-------|------|------|
+| Large language models in medicine | *Nature Medicine* | 2023 | [Paper](https://www.nature.com/articles/s41591-023-02448-8) |
+| Foundation models for generalist medical AI | *Nature* | 2023 | [Paper](https://www.nature.com/articles/s41586-023-05881-4) |
+| Precision and Personalization: LLMs in Diagnostic Accuracy | *IEEE JBHI* | 2025 | [Paper](https://doi.org/10.1109/JBHI.2025.3584179) |
+| A survey of large language models in medicine | *arXiv* | 2023 | [Paper](https://arxiv.org/abs/2311.05112) |
+| The future landscape of LLMs in medicine | *Communications Medicine* | 2023 | [Paper](https://www.nature.com/articles/s43856-023-00370-1) |
+
