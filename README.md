@@ -243,3 +243,31 @@ synthesizing **47 studies** on LLMs in clinical medicine, organized around
 | 🥇 | Flamingo-CXR | 77.7% pref. | 2024 | [Tanno et al.](#) |
 | 🥈 | R2GenGPT | Competitive SOTA | 2023 | [Wang et al.](#) |
 
+
+---
+
+## 📦 Datasets and Resources
+
+Full annotated table with access labels in [papers/datasets.md](papers/datasets.md).
+
+| Dataset | Task | Modality | Access |
+|---------|------|----------|--------|
+| MedQA (USMLE) | QA / Reasoning | Text | Open |
+| MedMCQA | QA / Reasoning | Text | Open |
+| PubMedQA | QA | Text | Open |
+| MultiMedQA | QA Suite | Text | Open |
+| MedNLI | NLI | Text | Credentialed |
+| MIMIC-III / IV | EHR Phenotyping | Text + Structured | Credentialed |
+| MIMIC-CXR | Report Generation | Image + Text | Credentialed |
+| CheXpert | Classification | Image | Registration |
+| IU X-Ray | Report Generation | Image + Text | Open |
+| VQA-RAD | Medical VQA | Image + Text | Open |
+| SLAKE | Medical VQA | Image + Text | Open |
+| PathVQA | Medical VQA | Image + Text | Open |
+| PMC-VQA | Medical VQA | Image + Text | Open |
+| PMC-15M | VLM Pretraining | Image + Text | Open |
+| QUILT-1M | VLM Pretraining | Image + Text | Open |
+| ISIC | Skin Lesion Seg. | Image | Open |
+| Med. Seg. Decathlon | Multi-organ Seg. | Image | Open |
+| TCGA | Cancer Subtyping | Multi-omics + Clinical | Open |
+
