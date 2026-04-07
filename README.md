@@ -94,3 +94,12 @@ synthesizing **47 studies** on LLMs in clinical medicine, organized around
 | 2025 | **Automated Extraction from German Discharge Letters** | GPT-4 | *Preprint* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
 
 
+---
+
+#### Biomedical Literature Mining & Knowledge Synthesis
+
+| Year | Title | Model | Venue | Links |
+|------|-------|-------|-------|-------|
+| 2020 | **BioBERT: A Pre-trained Biomedical Language Representation Model** | BioBERT | *Bioinformatics* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://academic.oup.com/bioinformatics/article/36/4/1234/5566506) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/dmis-lab/biobert) |
+| 2022 | **BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation** | BioGPT | *Briefings in Bioinformatics* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://academic.oup.com/bib/article/23/6/bbac409/6713511) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/microsoft/BioGPT) |
+| 2025 | **BiomedRAG: A Retrieval-Augmented LLM for Biomedicine** | BiomedRAG (LLaMA2 / MedLLaMA-13B) | *Preprint* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) [![Code](https://img.shields.io/badge/Code-Available-blue)](#) |
