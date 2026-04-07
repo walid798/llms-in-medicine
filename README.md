@@ -119,3 +119,18 @@ synthesizing **47 studies** on LLMs in clinical medicine, organized around
 | 2025 | **Evaluating GPT-4 for Radiology Patient Education** | GPT-4 | *European Radiology* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
 
 
+---
+
+#### Report Classification — Radiology & Pathology
+
+| Year | Title | Model | Venue | Links |
+|------|-------|-------|-------|-------|
+| 2023 | **Exploring the Boundaries of GPT-4 in Radiology** | GPT-4 | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2310.14573) |
+| 2024 | **Language Models for Italian Neoplastic CT Report Classification** | Italian BERT / GPT-4 | *Diagnostics* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+| 2024 | **GPT-3.5 for Multilingual TNM Staging** | GPT-3.5-turbo | *Japanese Journal of Radiology* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+| 2024 | **Automated Treatment Classification from Japanese Brain MRI Reports** | Japanese BERT | *Radiology: AI* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+| 2024 | **Generalizable TNM Staging via BigBird** | BB-TEN (BigBird) | *NPJ Precision Oncology* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) ![External](https://img.shields.io/badge/Val-External-orange) |
+| 2024 | **Zero-shot Breast Cancer Subtype Classification** | GPT-4 | *Modern Pathology* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+| 2025 | **Cancer Type and Staging from Pathology Reports** | Path-llama3.1 | *J. Pathology Informatics* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) ![External](https://img.shields.io/badge/Val-External-orange) |
+| 2025 | **Gynecologic Oncology Registry Automation** | Gemini 1.5 / Qwen2.5 72B | *Gynecologic Oncology* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) ![External](https://img.shields.io/badge/Val-External-orange) |
+
