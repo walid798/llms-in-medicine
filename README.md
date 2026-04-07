@@ -65,3 +65,17 @@ synthesizing **47 studies** on LLMs in clinical medicine, organized around
 
 <!-- ### Publication Trend -->
 
+---
+
+## 📄 Paper Categories
+
+### Legend
+
+| Badge | Meaning |
+|-------|---------|
+| ![Code](https://img.shields.io/badge/Code-Available-blue) | Public code repository available |
+| ![Open](https://img.shields.io/badge/Data-Open-green) | Open access dataset used |
+| ![SOTA](https://img.shields.io/badge/-SOTA-red) | State-of-the-art at publication time |
+| ![Prospective](https://img.shields.io/badge/Val-Prospective-purple) | Prospective clinical validation |
+| ![External](https://img.shields.io/badge/Val-External-orange) | External multi-site validation |
+
