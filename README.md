@@ -145,3 +145,16 @@ synthesizing **47 studies** on LLMs in clinical medicine, organized around
 | 2024 | **PEFT for Patient History-Aware Radiology Summarization** | PEFT LLM | *Radiology* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
 | 2025 | **Physician-Quality Discharge Summary Generation** | GPT-4 | *NEJM AI* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
 
+---
+
+### 🖼️ Multimodal Applications
+
+#### Radiology Report Generation
+
+| Year | Title | Model | Venue | Links |
+|------|-------|-------|-------|-------|
+| 2023 | **R2GenGPT: Radiology Report Generation with Frozen LLMs** | R2GenGPT | *Meta-Radiology* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2309.09110) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/wang-zhanyu/R2GenGPT) |
+| 2024 | **Collaboration Between Clinicians and AI for Radiology Reports** | Flamingo-CXR | *NPJ Digital Medicine* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) ![Prospective](https://img.shields.io/badge/Val-Prospective-purple) |
+| 2025 | **BrainGPT: 3D Brain CT Report Generation** | BrainGPT (CVIT) | *Nature Communications* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41467-025-57426-0) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://doi.org/10.5281/zenodo.14852686) |
+| 2025 | **MediVLM: Annotation-free Severity-aware Radiology Reporting** | MediVLM | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+
