@@ -158,3 +158,13 @@ synthesizing **47 studies** on LLMs in clinical medicine, organized around
 | 2025 | **BrainGPT: 3D Brain CT Report Generation** | BrainGPT (CVIT) | *Nature Communications* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41467-025-57426-0) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://doi.org/10.5281/zenodo.14852686) |
 | 2025 | **MediVLM: Annotation-free Severity-aware Radiology Reporting** | MediVLM | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
 
+---
+
+#### Pathology Report Generation
+
+| Year | Title | Model | Venue | Links |
+|------|-------|-------|-------|-------|
+| 2024 | **MI-Gen: Gigapixel WSI Report Generation** | MI-Gen | *Medical Image Analysis* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+| 2025 | **RAG-based Gastric Pathology Report Generation** | Proposed method | *Computers in Biology and Medicine* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+| 2025 | **Structured Label-Conditioned Bladder Pathology Reports** | MIL + T5 | *MICCAI 2025* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+
