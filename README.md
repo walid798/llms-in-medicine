@@ -10,8 +10,9 @@
 > **Large Language Models in Clinical Medicine — A Systematic Review of
 > Multimodal Architectures, Benchmarks, and Personalized Healthcare Applications**
 >
-> Walid Mohamed
->
+> Walid Mohamed · Rafia Fayyaz · Usama Mousattat · Shahad Al Hamadani ·
+> Taysir Soliman · Amr Mohamed Abdelaziz · Mohamed Elsharkawy ·
+> Ali Mahmoud · Mohamed Ghazal
 
 ## If you find this repository useful, please consider giving it a ⭐
 
