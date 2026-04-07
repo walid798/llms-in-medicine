@@ -39,3 +39,29 @@
 | 2026-03 | 47 studies added across 9 task categories |
 | 2026-01 | Benchmark leaderboard added for MedQA, VQA-RAD, and SLAKE |
 
+---
+
+## 📊 Survey Overview
+
+This repository accompanies a **PRISMA 2020-compliant systematic review**
+synthesizing **47 studies** on LLMs in clinical medicine, organized around
+**personalized healthcare** as a central analytical framework.
+
+### Coverage at a Glance
+
+| Section | Task Category | Studies |
+|---------|---------------|---------|
+| IV-A | Clinical Documentation & IE | 5 |
+| IV-B | Literature Mining & Knowledge | 3 |
+| IV-C | Decision Support & QA | 5 |
+| IV-D | Report Classification | 8 |
+| IV-E | Clinical Text Summarization | 4 |
+| V-A | Radiology Report Generation | 4 |
+| V-B | Pathology Report Generation | 3 |
+| V-C | Medical Visual QA | 6 |
+| V-D | LLM-Guided Segmentation | 3 |
+| V-E | Multimodal Diagnosis | 5 |
+| | **Total** | **47** |
+
+<!-- ### Publication Trend -->
+
