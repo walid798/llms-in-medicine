@@ -283,3 +283,19 @@ Full annotated table with access labels in [papers/datasets.md](papers/datasets.
 | A survey of large language models in medicine | *arXiv* | 2023 | [Paper](https://arxiv.org/abs/2311.05112) |
 | The future landscape of LLMs in medicine | *Communications Medicine* | 2023 | [Paper](https://www.nature.com/articles/s43856-023-00370-1) |
 
+
+---
+
+## 🤝 How to Contribute
+
+We welcome contributions from the community. To add a new paper:
+
+1. **Fork** this repository
+2. **Add** the paper to the correct section following the table format
+3. **Submit** a Pull Request with title: `Add: [Paper Title]`
+
+Or open an [Issue](.github/ISSUE_TEMPLATE/add_paper.md) using
+the Add Paper template.
+
+Full guidelines in [CONTRIBUTING.md](CONTRIBUTING.md).
+
