@@ -103,13 +103,11 @@ synthesizing **47 studies** on LLMs in clinical medicine, organized around
 #### Biomedical Literature Mining & Knowledge Synthesis
 
 | Year | Title | Model | Venue | Links |
-|------|-------|-------|-------|-------|
-| 2020 | **BioBERT: A Pre-trained Biomedical Language Representation Model** | BioBERT | *Bioinformatics* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://academic.oup.com/bioinformatics/article/36/4/1234/5566506) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/dmis-lab/biobert) |
-| 2022 | **BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation** | BioGPT | *Briefings in Bioinformatics* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://academic.oup.com/bib/article/23/6/bbac409/6713511) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/microsoft/BioGPT) |
-| 2025 | **BiomedRAG: A Retrieval-Augmented LLM for Biomedicine** | BiomedRAG (LLaMA2 / MedLLaMA-13B) | *Preprint* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) [![Code](https://img.shields.io/badge/Code-Available-blue)](#) |
-
-
-
+|------|-------|-------|-------|-------| 
+| 2020 | **BioBERT: a pre-trained biomedical language representation model for biomedical text mining** | BioBERT | *Bioinformatics* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://academic.oup.com/bioinformatics/article/36/4/1234/5566506) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/dmis-lab/biobert) |
+| 2022 | **BioGPT: generative pre-trained transformer for biomedical text generation and mining** | BioGPT | *Briefings in Bioinformatics* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://academic.oup.com/bib/article/23/6/bbac409/6713511?guestAccessKey=) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/microsoft/BioGPT) |
+| 2025 | **BiomedRAG: A retrieval augmented large language model for biomedicine** | BiomedRAG (LLaMA2 / MedLLaMA-13B) | *Journal of Biomedical Informatics* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.sciencedirect.com/science/article/pii/S1532046424001874) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/ToneLi/BIoMedRAG/tree/main) |
+ 
 ---
 
 #### Clinical Decision Support & Question Answering
