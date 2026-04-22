@@ -25,6 +25,8 @@
 
 - [What's New](#-whats-new)
 - [Survey Overview](#-survey-overview)
+- [Foundation Models](models/foundation-models.md) 🧱
+- [Medical LLM Models](models/medical-llms.md) 🏥
 - [Text-Based Applications](#-text-based-applications)
 - [Multimodal Applications](#-multimodal-applications)
 - [Benchmark Leaderboard](#-benchmark-leaderboard)
@@ -71,6 +73,9 @@ synthesizing **47 studies** on LLMs in clinical medicine, organized around
 
 ---
 
+[Foundation Models](models/foundation-models.md) — 24 general-purpose models from Transformer (2017) to Llama 4 (2025)  
+[Medical LLM Models](models/medical-llms.md) — 42 domain-adapted models across text, biomedical, and multimodal categories
+
 ## 📄 Paper Categories
 
 ### Legend
@@ -94,7 +99,7 @@ synthesizing **47 studies** on LLMs in clinical medicine, organized around
 | 2022 | **A Large Clinical Language Model to Unlock Patient Information from Unstructured EHRs** | GatorTron (8.9B) | *npj Digital Medicine* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41746-022-00742-2) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/NVIDIA/Megatron-LM) |
 | 2023 | **Health system-scale language models are all-purpose prediction engines** | NYUTron | *Nature* |  [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41586-023-06160-y) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/nyuolab/NYUTron) ![Prospective](https://img.shields.io/badge/Val-Prospective-purple) | Prospective clinical validation |
 | 2024 | **Large language models to identify social determinants of health in electronic health records** | Flan-T5 XL/XXL | *npj Digital Medicine* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41746-023-00970-0) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/AIM-Harvard/SDoH) ![External](https://img.shields.io/badge/Val-External-orange) |
-| 2025 | **Open-Source Hybrid Large Language Model Integrated System for Extraction of Breast Cancer Treatment Pathway From Free-Text Clinical Notes** | Hybrid LLM (UMLS) | *J. Biomedical Informatics* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) ![External](https://img.shields.io/badge/Val-External-orange) |
+| 2025 | **Open-Source Hybrid Large Language Model Integrated System for Extraction of Breast Cancer Treatment Pathway From Free-Text Clinical Notes** | Hybrid LLM (UMLS) | *J. Biomedical Informatics* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://ascopubs.org/doi/full/10.1200/CCI-25-00002) ![External](https://img.shields.io/badge/Val-External-orange) |
 | 2025 | **An automated information extraction model for unstructured discharge letters using large language models and GPT-4** | GPT-4 | *Healthcare Analytics* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.sciencedirect.com/science/article/pii/S2772442524000807) |
 
 
@@ -107,34 +112,42 @@ synthesizing **47 studies** on LLMs in clinical medicine, organized around
 | 2020 | **BioBERT: a pre-trained biomedical language representation model for biomedical text mining** | BioBERT | *Bioinformatics* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://academic.oup.com/bioinformatics/article/36/4/1234/5566506) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/dmis-lab/biobert) |
 | 2022 | **BioGPT: generative pre-trained transformer for biomedical text generation and mining** | BioGPT | *Briefings in Bioinformatics* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://academic.oup.com/bib/article/23/6/bbac409/6713511?guestAccessKey=) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/microsoft/BioGPT) |
 | 2025 | **BiomedRAG: A retrieval augmented large language model for biomedicine** | BiomedRAG (LLaMA2 / MedLLaMA-13B) | *Journal of Biomedical Informatics* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.sciencedirect.com/science/article/pii/S1532046424001874) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/ToneLi/BIoMedRAG/tree/main) |
- 
+| 2025 | **A large language model framework for literature-based disease–gene association prediction** | LORE (GPT-3.5-turbo + text-embedding-3-large) | *Briefings in Bioinformatics* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://doi.org/10.1093/bib/bbaf070) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/ailabstw/LORE) |
 ---
 
 #### Clinical Decision Support & Question Answering
 
 | Year | Title | Model | Venue | Links |
 |------|-------|-------|-------|-------|
-| 2023 | **Large Language Models Encode Clinical Knowledge** | Med-PaLM (Flan-PaLM) | *Nature* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41586-023-06291-2) ![SOTA](https://img.shields.io/badge/-SOTA-red) |
-| 2023 | **Can Generalist Foundation Models Outcompete Special-Purpose Tuning?** | GPT-4 | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2311.16452) |
-| 2023 | **ChatDoctor: A Medical Chat Model Fine-Tuned on LLaMA** | ChatDoctor (LLaMA-7B) | *Cureus* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.cureus.com/articles/152858) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/Kent0n-Li/ChatDoctor) |
-| 2024 | **Mental-LLM: Leveraging LLMs for Mental Health Prediction** | Mental-LLM | *ACM SIGCHI* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2307.14385) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/neuhai/Mental-LLM) |
-| 2025 | **Evaluating GPT-4 for Radiology Patient Education** | GPT-4 | *European Radiology* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+| 2023 | **Large language models encode clinical knowledge** | Med-PaLM (Flan-PaLM) | *Nature* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41586-023-06291-2) |
+| 2023 | **ChatDoctor: A Medical Chat Model Fine-Tuned ona Large Language Model Meta-AI (LLaMA) UsingMedical Domain Knowledge** | ChatDoctor (LLaMA-7B) | *Cureus* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://assets.cureus.com/uploads/original_article/pdf/152858/20230724-24731-1v47a9.pdf) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/Kent0n-Li/ChatDoctor) |
+| 2024 | **Evaluating capabilities of large language models: Performance of GPT-4 on surgical knowledge assessments** | GPT-4 | *Surgery* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.sciencedirect.com/science/article/pii/S0039606023009546) |
+| 2024 | **Mental-LLM: Leveraging Large Language Models for Mental Health Prediction via Online Text Data** | Mental-LLM | *ACM SIGCHI* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://dl.acm.org/doi/pdf/10.1145/3643540) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/neuhai/Mental-LLM) |https://github.com/neuhai/Mental-LLM
+
 
 
 ---
 
-#### Report Classification — Radiology & Pathology
+#### Radiology Reports Classification
 
 | Year | Title | Model | Venue | Links |
 |------|-------|-------|-------|-------|
-| 2023 | **Exploring the Boundaries of GPT-4 in Radiology** | GPT-4 | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2310.14573) |
-| 2024 | **Language Models for Italian Neoplastic CT Report Classification** | Italian BERT / GPT-4 | *Diagnostics* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
-| 2024 | **GPT-3.5 for Multilingual TNM Staging** | GPT-3.5-turbo | *Japanese Journal of Radiology* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
-| 2024 | **Automated Treatment Classification from Japanese Brain MRI Reports** | Japanese BERT | *Radiology: AI* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
-| 2024 | **Generalizable TNM Staging via BigBird** | BB-TEN (BigBird) | *NPJ Precision Oncology* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) ![External](https://img.shields.io/badge/Val-External-orange) |
-| 2024 | **Zero-shot Breast Cancer Subtype Classification** | GPT-4 | *Modern Pathology* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
-| 2025 | **Cancer Type and Staging from Pathology Reports** | Path-llama3.1 | *J. Pathology Informatics* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) ![External](https://img.shields.io/badge/Val-External-orange) |
-| 2025 | **Gynecologic Oncology Registry Automation** | Gemini 1.5 / Qwen2.5 72B | *Gynecologic Oncology* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) ![External](https://img.shields.io/badge/Val-External-orange) |
+| 2023 | **Exploring the Boundaries of GPT-4 in Radiology** | GPT-4 | *EMNLP* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://aclanthology.org/2023.emnlp-main.891/) ![SOTA](https://img.shields.io/badge/-SOTA-red) | State-of-the-art at publication time |
+| 2024 | **Language Models for Hierarchical Classification of Radiology Reports With Attention Mechanisms, BERT, and GPT-4** | Italian BERT / GPT-4 | *IEEE Access* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://ieeexplore.ieee.org/abstract/document/10531266) |
+| 2024 | **Exploring Multilingual Large Language Models for Enhanced TNM Classification of Radiology Report in Lung Cancer Staging** | GPT-3.5-turbo | *Cancers* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.mdpi.com/2072-6694/16/21/3621) |
+| 2024 | **Automated classification of brain MRI reports using fine-tuned large language models** | BERT | *Neuroradiology* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://link.springer.com/article/10.1007/s00234-024-03427-7) |
+| 2025 | **Mistral in Radiology: AI-Powered Classification of Normal and Abnormal Reports** | Mistral  | *IMA* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://onlinelibrary.wiley.com/doi/abs/10.1002/ima.70251) |
+
+
+#### Pathology Reports Classification 
+
+| Year | Title | Model | Venue | Links |
+|------|-------|-------|-------|-------|
+| 2025 | **Cancer type, stage and prognosis assessment from pathology reports using LLMs** | Path-llama3.1-8B and Path-GPT-4o-mini-FT | *Scientific Reports* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41598-025-10709-4)  [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/rachitsaluja/PathRep-Bench) |
+| 2025 | **Real-world application of large language models for automated TNM staging using unstructured gynecologic oncology reports** | Gemini 1.5, Qwen2.5 72B | *npj precision oncology* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41698-025-01157-4)  | [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/iishiken/structured-clinical-data-extraction)
+| 2024 | **Generalizable and automated classification of TNM stage from pathology reports with external validation** | Path-llama3.1 | *Nature Communications* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41467-024-53190-9) |
+| 2025 | **A comparative study of large language model-based zero-shot inference and task-specific supervised classification of breast cancer pathology reports** | GPT-4, GPT-3.5, Starling, and ClinicalCamel | *JAMIA* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://academic.oup.com/jamia/article/31/10/2315/7696538) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/MadhumitaSushil/BreastCaPathClassification)|
+
 
 ---
 
