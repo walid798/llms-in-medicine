@@ -164,12 +164,12 @@ synthesizing **47 studies** on LLMs in clinical medicine, organized around
 
 | Year | Title | Model | Venue | Links |
 |------|-------|-------|-------|-------|
-| 2023 | **R2GenGPT: Radiology Report Generation with Frozen LLMs** | R2GenGPT | *Meta-Radiology* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.sciencedirect.com/science/article/pii/S2950162823000450) [![Code](https://img.shields.io/badge/Code-Available-green)](https://github.com/wang-zhanyu/R2GenGPT) |
-| 2023 | **LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day** | LLaVA-Med (CLIP ViT + Vicuna/LLaMA) | *NeurIPS* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2306.00890) [![Code](https://img.shields.io/badge/Code-Available-green)](https://github.com/microsoft/LLaVA-Med) |
+| 2023 | **R2GenGPT: Radiology Report Generation with Frozen LLMs** | R2GenGPT | *Meta-Radiology* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.sciencedirect.com/science/article/pii/S2950162823000334) [![Code](https://img.shields.io/badge/Code-Available-green)](https://github.com/wang-zhanyu/R2GenGPT) |
+| 2023 | **LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day** | LLaVA-Med (CLIP ViT + Vicuna/LLaMA) | *NeurIPS* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://neurips.cc/virtual/2023/poster/73643) [![Code](https://img.shields.io/badge/Code-Available-green)](https://github.com/microsoft/LLaVA-Med) |
 | 2024 | **MAIRA-2: Grounded Radiology Report Generation** | MAIRA-2 (region-grounded VLM) | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2406.04449) |
-| 2025 | **Collaboration Between Clinicians and Vision-Language Models in Radiology Report Generation** | Flamingo-CXR (clinician-in-loop) | *Nature Medicine* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41591-024-03379-2) |
-| 2025 | **Towards a Holistic Framework for Multimodal LLM in 3D Brain CT Radiology Report Generation** | BrainGPT (CVIT-based) | *Nature Communications* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41467-025-56559-6) |
-| 2025 | **MediVLM: Annotation-Free Vision-Language Model for Radiology** | MediVLM | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2502.10190) |
+| 2025 | **Collaboration Between Clinicians and Vision-Language Models in Radiology Report Generation** | Flamingo-CXR (clinician-in-loop) | *Nature Medicine* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41591-024-03302-1) |
+| 2025 | **Towards a Holistic Framework for Multimodal LLM in 3D Brain CT Radiology Report Generation** | BrainGPT (CVIT-based) | *Nature Communications* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41467-025-57426-0) |
+| 2025 | **MediVLM: Annotation-Free Vision-Language Model for Radiology** | MediVLM | *ACL Anthology* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://aclanthology.org/2025.findings-emnlp.544/) |
 
 
 ---
