@@ -92,6 +92,8 @@ synthesizing **47 studies** on LLMs in clinical medicine, organized around
 > 🧱 [**Foundation Models**](models/foundation-models.md): 24 general-purpose models from Transformer (2017) to Llama 4 (2025)  
 > 🏥 [**Medical LLM Models**](models/medical-llms.md): 42 domain-adapted models across text, biomedical, and multimodal categories
 
+---
+
 ### 📝 Text-Based Applications
 
 #### Clinical Documentation & Information Extraction
@@ -153,14 +155,6 @@ synthesizing **47 studies** on LLMs in clinical medicine, organized around
 
 ---
 
-#### Clinical Text Summarization
-
-| Year | Title | Model | Venue | Links |
-|------|-------|-------|-------|-------|
-| 2023 | **GPT-4 for Lung Cancer Phenotype Extraction** | GPT-4 | *JAMIA* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
-| 2024 | **Integration of LLMs for Clinical Note Summarization** | Domain-adapted LLM | *npj Digital Medicine* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
-| 2024 | **PEFT for Patient History-Aware Radiology Summarization** | PEFT LLM | *Radiology* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
-| 2025 | **Physician-Quality Discharge Summary Generation** | GPT-4 | *NEJM AI* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
 
 ---
 
@@ -170,10 +164,13 @@ synthesizing **47 studies** on LLMs in clinical medicine, organized around
 
 | Year | Title | Model | Venue | Links |
 |------|-------|-------|-------|-------|
-| 2023 | **R2GenGPT: Radiology Report Generation with Frozen LLMs** | R2GenGPT | *Meta-Radiology* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2309.09110) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/wang-zhanyu/R2GenGPT) |
-| 2024 | **Collaboration Between Clinicians and AI for Radiology Reports** | Flamingo-CXR | *NPJ Digital Medicine* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) ![Prospective](https://img.shields.io/badge/Val-Prospective-purple) |
-| 2025 | **BrainGPT: 3D Brain CT Report Generation** | BrainGPT (CVIT) | *Nature Communications* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41467-025-57426-0) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://doi.org/10.5281/zenodo.14852686) |
-| 2025 | **MediVLM: Annotation-free Severity-aware Radiology Reporting** | MediVLM | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+| 2023 | **R2GenGPT: Radiology Report Generation with Frozen LLMs** | R2GenGPT | *Meta-Radiology* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.sciencedirect.com/science/article/pii/S2950162823000450) [![Code](https://img.shields.io/badge/Code-Available-green)](https://github.com/wang-zhanyu/R2GenGPT) |
+| 2023 | **LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day** | LLaVA-Med (CLIP ViT + Vicuna/LLaMA) | *NeurIPS* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2306.00890) [![Code](https://img.shields.io/badge/Code-Available-green)](https://github.com/microsoft/LLaVA-Med) |
+| 2024 | **MAIRA-2: Grounded Radiology Report Generation** | MAIRA-2 (region-grounded VLM) | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2406.04449) |
+| 2025 | **Collaboration Between Clinicians and Vision-Language Models in Radiology Report Generation** | Flamingo-CXR (clinician-in-loop) | *Nature Medicine* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41591-024-03379-2) |
+| 2025 | **Towards a Holistic Framework for Multimodal LLM in 3D Brain CT Radiology Report Generation** | BrainGPT (CVIT-based) | *Nature Communications* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41467-025-56559-6) |
+| 2025 | **MediVLM: Annotation-Free Vision-Language Model for Radiology** | MediVLM | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2502.10190) |
+
 
 ---
 
