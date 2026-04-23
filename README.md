@@ -25,8 +25,8 @@
 
 - [What's New](#-whats-new)
 - [Survey Overview](#-survey-overview)
-- [Foundation Models](models/foundation-models.md) 🧱
-- [Medical LLM Models](models/medical-llms.md) 🏥
+- [Foundation Models](models/foundation-models.md)
+- [Medical LLM Models](models/medical-llms.md)
 - [Text-Based Applications](#-text-based-applications)
 - [Multimodal Applications](#-multimodal-applications)
 - [Benchmark Leaderboard](#-benchmark-leaderboard)
@@ -73,8 +73,7 @@ synthesizing **47 studies** on LLMs in clinical medicine, organized around
 
 ---
 
-> 🧱 [**Foundation Models**](models/foundation-models.md): 24 general-purpose models from Transformer (2017) to Llama 4 (2025)  
-> 🏥 [**Medical LLM Models**](models/medical-llms.md): 42 domain-adapted models across text, biomedical, and multimodal categories
+
 
 ## 📄 Paper Categories
 
@@ -89,6 +88,9 @@ synthesizing **47 studies** on LLMs in clinical medicine, organized around
 | ![External](https://img.shields.io/badge/Val-External-orange) | External multi-site validation |
 
 ---
+
+> 🧱 [**Foundation Models**](models/foundation-models.md): 24 general-purpose models from Transformer (2017) to Llama 4 (2025)  
+> 🏥 [**Medical LLM Models**](models/medical-llms.md): 42 domain-adapted models across text, biomedical, and multimodal categories
 
 ### 📝 Text-Based Applications
 
