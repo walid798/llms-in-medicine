@@ -174,13 +174,17 @@ synthesizing **47 studies** on LLMs in clinical medicine, organized around
 
 ---
 
-#### Pathology Report Generation
+### Pathology Report Generation
 
 | Year | Title | Model | Venue | Links |
 |------|-------|-------|-------|-------|
-| 2024 | **MI-Gen: Gigapixel WSI Report Generation** | MI-Gen | *Medical Image Analysis* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
-| 2025 | **RAG-based Gastric Pathology Report Generation** | Proposed method | *Computers in Biology and Medicine* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
-| 2025 | **Structured Label-Conditioned Bladder Pathology Reports** | MIL + T5 | *MICCAI 2025* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+| 2024 | **WsiCaption: Multiple Instance Generation of Pathology Reports for Gigapixel Whole-Slide Images** | MI-Gen | *MICCAI 2024* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://link.springer.com/chapter/10.1007/978-3-031-72083-3_51) [![Code](https://img.shields.io/badge/Code-Available-green)](https://github.com/cpystan/Wsi-Caption) |
+| 2024 | **HistGen: Histopathology Report Generation via Local-Global Feature Encoding and Cross-modal Context Interaction** | HistGen | *MICCAI 2024* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://link.springer.com/chapter/10.1007/978-3-031-72083-3_18) [![Code](https://img.shields.io/badge/Code-Available-green)](https://github.com/dddavid4real/HistGen) |
+| 2024 | **Clinical-Grade Multi-organ Pathology Report Generation for Multi-scale WSIs via a Semantically Guided Medical Text Foundation Model** | Semantically Guided VLM | *MICCAI 2024* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://link.springer.com/chapter/10.1007/978-3-031-72083-3_3) [![Code](https://img.shields.io/badge/Code-Available-green)](https://github.com/hvcl/Clinical-grade-Pathology-Report-Generation/tree/main)| 
+| 2025 | **Pathology Report Generation from Whole Slide Images with Knowledge Retrieval and Multi-level Regional Feature Selection** | Multi-level Regional + LLM refinement | *Comput. Methods Programs Biomed.* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.sciencedirect.com/science/article/pii/S016926072500094X) |
+| 2025 | **A Multimodal Whole-Slide Foundation Model for Pathology** | TITAN (CONCH + Transformer) | *Nature Medicine* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41591-025-03982-3) [![Code](https://img.shields.io/badge/Code-Available-green)](https://github.com/mahmoodlab/TITAN) |
+| 2025 | **PolyPath: Adapting a Large Multimodal Model for Multi-slide Pathology Report Generation** | Gemini 1.5 Flash (1M-token context) | *Modern Pathology* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.sciencedirect.com/science/article/pii/S089339522500184X) |
+| 2025 | **Enhancing Pathology Report Generation Under Data Scarcity via Modular MIL + T5 Pipeline** | MIL + T5 (modular) | *IEEE Access* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://ieeexplore.ieee.org/abstract/document/11078283) |
 
 ---
 
