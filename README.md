@@ -196,31 +196,39 @@ synthesizing **47 studies** on LLMs in clinical medicine, organized around
 | 2024 | **PMC-VQA: Visual Instruction Tuning for Medical VQA** | PMC-VQA | *Communications Medicine* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s43856-024-00709-2) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/xiaoman-zhang/PMC-VQA) |
 | 2024 | **Candidate Answer Set Guided Medical VQA** | CH-ICL | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2408.10048) |
 | 2024 | **Falcon Med-VQA: Uncertainty-aware Clinical QA** | Falcon Med-VQA | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+| 2024 | **OmniMedVQA: A New Large-Scale Comprehensive Evaluation Benchmark for Medical LVLM** | Evaluation benchmark (12 modalities) | *CVPR 2024* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://openaccess.thecvf.com/content/CVPR2024/papers/Hu_OmniMedVQA_A_New_Large-Scale_Comprehensive_Evaluation_Benchmark_for_Medical_LVLM_CVPR_2024_paper.pdf) |
 | 2025 | **MiniMedGPT: Parameter-Efficient Medical VQA** | MiniMedGPT (EVA-CLIP + LLaMA2-7B) | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
 | 2025 | **FAVP: Fine-grained Adaptive Visual Prompts for Generative MedVQA** | FAVP (ViT-G/14 + Vicuna-7B) | *AAAI 2025* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://github.com/OpenMICG/FAVP) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/OpenMICG/FAVP) |
 | 2025 | **Structural Causal Models and LLMs for Medical VQA** | CIF (CLIP + LLaMA 7B/13B) | *IEEE Transactions* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
 
 ---
 
-#### LLM-Guided Image Segmentation
+### LLM-Guided Image Segmentation
 
 | Year | Title | Model | Venue | Links |
 |------|-------|-------|-------|-------|
-| 2025 | **LLM4Seg: Pre-trained LLM Layers for Medical Segmentation** | LLM4Seg (LLaMA3.2-1B / DeepSeek) | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) [![Code](https://img.shields.io/badge/Code-Available-blue)](#) |
-| 2025 | **MedVisionLlama: LLM-Enhanced ViT for 3D Segmentation** | MedVisionLlama (Llama-3.1-8B + ViT) | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
-| 2025 | **Zeus: Zero-shot LLM Instructions for SAM-based Segmentation** | Zeus (Vicuna + SAM) | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+| 2025 | **Pre-Trained LLM is a Semantic-Aware and Generalizable Segmentation Booster** | LLM4Seg (frozen LLaMA3.2-1B or DeepSeek layer + CNN encoder-decoder) | *MICCAI 2025* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://link.springer.com/chapter/10.1007/978-3-032-05127-1_39) [![Code](https://img.shields.io/badge/Code-Available-green)](https://github.com/FengheTan9/LLM4Seg) |
+| 2025 | **MedVisionLlama: Leveraging Pre-Trained Large Language Model Layers to Enhance Medical Image Segmentation** | MedVisionLlama (frozen Llama-3.1-8B blocks + ViT encoder; LoRA) | *ICCV 2025 Workshop (CVAMD)* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2410.02458) [![Code](https://img.shields.io/badge/Code-Available-green)](https://github.com/AS-Lab/Marthi-et-al-2025-MedVisionLlama-Pre-Trained-LLM-Layers-to-Enhance-Medical-Image-Segmentation) |
+| 2025 | **Zeus: Zero-Shot LLM Instruction for Union Segmentation in Multimodal Medical Imaging** | Zeus (frozen Vicuna as instruction generator + SAM mask decoder) | *International Journal of Machine Learning and Cybernetics* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://link.springer.com/article/10.1007/s13042-025-02742-6) |
+| 2025 | **Beyond Pixel Agreement: Large Language Models as Clinical Guardrails for Reliable Medical Image Segmentation** | HCR (Gemini 2.5 Flash; hierarchical multi-stage prompting) | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2506.01841) |
 
 ---
 
-#### Multimodal Diagnosis & Clinical Reasoning
+### Multimodal Clinical Diagnosis and Reasoning
 
 | Year | Title | Model | Venue | Links |
 |------|-------|-------|-------|-------|
-| 2024 | **GPT-4V for Zero-shot Chest X-ray Interpretation** | GPT-4V | *Radiology* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
-| 2024 | **In-context Learning for Histopathology Classification** | GPT-4V | *Nature Medicine* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2312.02510) |
-| 2024 | **SkinGPT-4: Dermatological Diagnosis from Patient Photos** | SkinGPT-4 (LLaMA-2-13B + ViT) | *Nature Communications* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://arxiv.org/abs/2304.10691) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/JoshuaChou2018/SkinGPT-4) |
-| 2025 | **M3FM: Multilingual Multimodal Medical Foundation Model** | M3FM | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
-| 2025 | **Multimodal LLMs for Laryngeal Cancer Surgical Decision Support** | Claude 3.5 Sonnet + 5 MLLMs | *Head & Neck* | [![Paper](https://img.shields.io/badge/Paper-blue)](#) |
+| 2024 | **Evaluating GPT-4V on Chest Radiograph Interpretation: Zero-Shot and Few-Shot Performance** | GPT-4V (zero-shot / few-shot) | *Radiology: Artificial Intelligence* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://pubmed.ncbi.nlm.nih.gov/38713028/) |
+| 2025 | **Multimodal Large Language Models for Laryngeal Cancer Diagnosis: A Comparative Study** | Claude 3.5 Sonnet + 5 MLLMs | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://journals.lww.com/international-journal-of-surgery/fulltext/2025/03000/multimodal_large_language_models_address_clinical.36.aspx) |
+| 2024 | **In-Context Learning Enables Multimodal Large Language Models to Classify Cancer Pathology Images** | GPT-4V (in-context; no fine-tuning) | *Nature Communications* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41467-024-51465-9) [![Code](https://img.shields.io/badge/Code-Available-blue)](https://github.com/Dyke-F/GPT-4V-In-Context-Learning) |
+| 2025 | **A multimodal multidomain multilingual medical foundation model for zero shot clinical diagnosis** | M3FM | *npj digital medicine* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41746-024-01339-7) |
+| 2024 | **Pre-trained multimodal large language model enhances dermatological diagnosis using SkinGPT-4** | SkinGPT-4 (LLaMA-2-13B + ViT) | *Nature Communications* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41467-024-50043-3) [![Code](https://img.shields.io/badge/Code-Available-green)](https://github.com/JoshuaChou2018/SkinGPT-4) |
+| 2024 | **A multimodal generative AI copilot for human pathology** | PathChat (UNI ViT + LLaMA 13B; projection fusion) | *Nature* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41586-024-07618-3) [![Code](https://img.shields.io/badge/Code-Available-green)](https://github.com/fedshyvana/pathology_mllm_training) |
+| 2024 | **Towards Generalist Biomedical AI** | Med-PaLM M (PaLM-E + ViT; 14-task unified) | *NEJM AI* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://ai.nejm.org/doi/full/10.1056/AIoa2300138) |
+| 2024 | **LLM-Driven Multimodal Target Volume Contouring in Radiation Oncology** | LLMSeg (3D CT + clinical text; cross-attention) | *Nature Communications* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41467-024-53387-y) [![Code](https://img.shields.io/badge/Code-Available-green)](https://github.com/tvseg/MM-LLM-RO)|
+| 2025 | **MedTVT-R1: A Multimodal LLM Empowering Medical Reasoning and Diagnosis** | MedTVT-R1 (LLaMA3.2 + ECG + CXR + Lab; adaptive cross-modal attention) | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](MedTVT-R1: A Multimodal LLM Empowering Medical Reasoning and Diagnosis) [![Code](https://img.shields.io/badge/Code-Available-green)](https://github.com/keke-nice/MedTVT-R1) |
+| 2024 | **MEDFuse: Multimodal EHR Data Fusion with Masked Lab-Test Modeling and Large Language Models** | MEDFuse (lab-test transformer + LLM notes; cross-attention intermediate fusion) | *CIKM 2024* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://dl.acm.org/doi/10.1145/3627673.3679962) |
+| 2025 | **SMFusion: Semantic-Preserving Fusion of Multimodal Medical Images for Enhanced Clinical Diagnosis** | SMFusion (BiomedGPT text + cross-attention + PET/MRI) | *IEEE JBHI* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://ieeexplore.ieee.org/abstract/document/11319543) |
 
 
 ---
