@@ -7,18 +7,18 @@ title: "Large Language Models in Clinical Medicine — A Systematic Review
 authors:
   - family-names: Mohamed
     given-names: Walid
+  - family-names: Elsharkawy
+    given-names: Mohamed
+  - family-names: Al Hamadani
+    given-names: Shahad
   - family-names: Fayyaz
     given-names: Rafia
   - family-names: Mousattat
     given-names: Usama
-  - family-names: Al Hamadani
-    given-names: Shahad
   - family-names: Soliman
     given-names: Taysir
   - family-names: Abdelaziz
     given-names: Amr Mohamed
-  - family-names: Elsharkawy
-    given-names: Mohamed
   - family-names: Mahmoud
     given-names: Ali
   - family-names: Ghazal
@@ -40,5 +40,4 @@ keywords:
 ---
 
 
-Replace with:
 ```
