@@ -1,7 +1,6 @@
 # Multimodal Medical LLM Papers
 
-Detailed reference for all multimodal studies included in the survey.
-For the summary table see the main [README](../README.md).
+Detailed reference for all multimodal studies included in the survey. For the summary table see the main [README](../README.md).
 
 ---
 
