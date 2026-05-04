@@ -4,18 +4,17 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/walid798/llms-in-medicine?style=social)](https://github.com/walid798/llms-in-medicine)
-[![Papers](https://img.shields.io/badge/Papers-47-blue)](README.md)  <!-- Need to be updated after adding extra papers -->
-[![Categories](https://img.shields.io/badge/Categories-9-green)](README.md)
+[![Papers](https://img.shields.io/badge/Papers-56-blue)](README.md)
+[![Categories](https://img.shields.io/badge/Categories-10-green)](README.md)
 [![Updated](https://img.shields.io/badge/Updated-April%202025-orange)](CHANGELOG.md)
 
 **A curated repository accompanying our systematic survey:**
 
-> **Large Language Models in Clinical Medicine — A Systematic Review of
-> Multimodal Architectures, Benchmarks, and Personalized Healthcare Applications**
+> **Large Language Models in Clinical Medicine: A Systematic Review of Multimodal Architectures, Benchmarks, and Personalized Healthcare Applications**
 >
-> Walid Mohamed · Rafia Fayyaz · Usama Mousattat · Shahad Al Hamadani ·
-> Taysir Soliman · Amr Mohamed Abdelaziz · Mohamed Elsharkawy ·
-> Ali Mahmoud · Mohamed Ghazal
+> Walid Mohamed, Mohamed Elsharkawy, Shahad Al Hamadani, Rafia Fayyaz, Usama Mousattat, 
+> Taysir Soliman, Amr Mohamed Abdelaziz, 
+> Ali Mahmoud, Mohamed Ghazal
 
 ## If you find this repository useful, please consider giving it a ⭐
 
@@ -23,13 +22,12 @@
 
 ## 📋 Table of Contents
 
-- [What's New](#-whats-new)
+<!-- - [What's New](#-whats-new) -->
 - [Survey Overview](#-survey-overview)
 - [Foundation Models](models/foundation-models.md)
 - [Medical LLM Models](models/medical-llms.md)
 - [Text-Based Applications](#-text-based-applications)
 - [Multimodal Applications](#-multimodal-applications)
-- [Benchmark Leaderboard](#-benchmark-leaderboard)
 - [Datasets and Resources](#-datasets-and-resources)
 - [Related Surveys](#-related-surveys)
 - [How to Contribute](#-how-to-contribute)
@@ -37,37 +35,37 @@
 
 ---
 
-## 🆕 What's New
+<!-- ## 🆕 What's New
 
 | Date | Update |
 |------|--------|
-| 2025-04 | 🎉 Repository launched alongside survey submission to AI Review (Springer) |
+| 2025-04 | 🎉 Repository launched alongside survey submission |
 | 2026-03 | 47 studies added across 9 task categories |
-| 2026-01 | Benchmark leaderboard added for MedQA, VQA-RAD, and SLAKE |
+| 2026-01 | Benchmark leaderboard added for MedQA, VQA-RAD, and SLAKE | -->
 
 ---
 
 ## 📊 Survey Overview
 
 This repository accompanies a **PRISMA 2020-compliant systematic review**
-synthesizing **47 studies** on LLMs in clinical medicine, organized around
+synthesizing **56 studies** on LLMs in clinical medicine, organized around
 **personalized healthcare** as a central analytical framework.
 
 ### Coverage at a Glance
 
-| Section | Task Category | Studies |
-|---------|---------------|---------|
-| IV-A | Clinical Documentation & IE | 5 |
-| IV-B | Literature Mining & Knowledge | 3 |
-| IV-C | Decision Support & QA | 5 |
-| IV-D | Report Classification | 8 |
-| IV-E | Clinical Text Summarization | 4 |
-| V-A | Radiology Report Generation | 4 |
-| V-B | Pathology Report Generation | 3 |
-| V-C | Medical Visual QA | 6 |
-| V-D | LLM-Guided Segmentation | 3 |
-| V-E | Multimodal Diagnosis | 5 |
-| | **Total** | **47** |
+| Task Category | Studies |
+|---------------|---------|
+| Clinical Documentation & IE | 5 |
+| Literature Mining & Knowledge | 4 |
+| Decision Support & QA | 5 |
+| Radiology Report Classification | 5 |
+| Pathology Report Classification | 4 |
+| Radiology Report Generation | 6 |
+| Pathology Report Generation | 5 |
+| Medical Visual QA | 7 |
+| LLM-Guided Segmentation | 4 |
+| Multimodal Diagnosis | 11 |
+| | **Total** | **56** |
 
 <!-- ### Publication Trend -->
 
@@ -229,45 +227,6 @@ synthesizing **47 studies** on LLMs in clinical medicine, organized around
 | 2025 | **MedTVT-R1: A Multimodal LLM Empowering Medical Reasoning and Diagnosis** | MedTVT-R1 (LLaMA3.2 + ECG + CXR + Lab; adaptive cross-modal attention) | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](MedTVT-R1: A Multimodal LLM Empowering Medical Reasoning and Diagnosis) [![Code](https://img.shields.io/badge/Code-Available-green)](https://github.com/keke-nice/MedTVT-R1) |
 | 2024 | **MEDFuse: Multimodal EHR Data Fusion with Masked Lab-Test Modeling and Large Language Models** | MEDFuse (lab-test transformer + LLM notes; cross-attention intermediate fusion) | *CIKM 2024* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://dl.acm.org/doi/10.1145/3627673.3679962) |
 | 2025 | **SMFusion: Semantic-Preserving Fusion of Multimodal Medical Images for Enhanced Clinical Diagnosis** | SMFusion (BiomedGPT text + cross-attention + PET/MRI) | *IEEE JBHI* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://ieeexplore.ieee.org/abstract/document/11319543) |
-
-
----
-
-## 🏆 Benchmark Leaderboard
-
-> Results extracted from included studies.
-> To update, please submit a PR — see [CONTRIBUTING.md](CONTRIBUTING.md).
-
-### MedQA (USMLE) — Text QA
-
-| Rank | Model | Accuracy | Year | Reference |
-|------|-------|----------|------|-----------|
-| 🥇 | GPT-4 | 86.7% | 2023 | [Nori et al.](https://arxiv.org/abs/2311.16452) |
-| 🥈 | Med-PaLM 2 | 86.5% | 2023 | [Singhal et al.](https://arxiv.org/abs/2305.09617) |
-| 🥉 | Med-PaLM | 67.6% | 2022 | [Singhal et al.](https://www.nature.com/articles/s41586-023-06291-2) |
-
-### VQA-RAD — Closed-ended Accuracy
-
-| Rank | Model | Accuracy | Year | Reference |
-|------|-------|----------|------|-----------|
-| 🥇 | CH-ICL | 77.08% | 2024 | [Liang et al.](#) |
-| 🥈 | PMC-VQA | ~78% | 2024 | [Zhang et al.](#) |
-| 🥉 | MiniMedGPT | ~75% | 2025 | [Alsabbagh et al.](#) |
-
-### SLAKE — Open-ended Accuracy
-
-| Rank | Model | Accuracy | Year | Reference |
-|------|-------|----------|------|-----------|
-| 🥇 | CH-ICL | 88.12% | 2024 | [Liang et al.](#) |
-| 🥈 | PMC-VQA | ~84% | 2024 | [Zhang et al.](#) |
-| 🥉 | MiniMedGPT | ~82% | 2025 | [Alsabbagh et al.](#) |
-
-### MIMIC-CXR — Radiology Report Generation
-
-| Rank | Model | ROUGE-L | Year | Reference |
-|------|-------|---------|------|-----------|
-| 🥇 | Flamingo-CXR | 77.7% pref. | 2024 | [Tanno et al.](#) |
-| 🥈 | R2GenGPT | Competitive SOTA | 2023 | [Wang et al.](#) |
 
 
 ---
