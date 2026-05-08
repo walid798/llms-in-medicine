@@ -8,7 +8,7 @@
 [![Categories](https://img.shields.io/badge/Categories-10-green)](README.md)
 [![Updated](https://img.shields.io/badge/Updated-April%202025-orange)](CHANGELOG.md)
 
-**A curated repository accompanying our systematic survey:**
+**A curated repository accompanying our systematic review:**
 
 > **Large Language Models in Clinical Medicine: A Systematic Review of Multimodal Architectures, Benchmarks, and Personalized Healthcare Applications**
 >
@@ -40,7 +40,7 @@
 | Date | Update |
 |------|--------|
 | 2025-04 | 🎉 Repository launched alongside survey submission |
-| 2026-03 | 47 studies added across 9 task categories |
+| 2026-03 | 56 studies added across 10 task categories |
 | 2026-01 | Benchmark leaderboard added for MedQA, VQA-RAD, and SLAKE | -->
 
 ---
@@ -65,7 +65,7 @@ synthesizing **56 studies** on LLMs in clinical medicine, organized around
 | Medical Visual QA | 7 |
 | LLM-Guided Segmentation | 4 |
 | Multimodal Diagnosis | 11 |
-| | **Total** | **56** |
+| **Total** | **56** |
 
 <!-- ### Publication Trend -->
 

@@ -15,12 +15,12 @@ benchmark leaderboards, dataset resources, and reproducibility ratings.
 
 ---
 
-**Q: How were the 47 studies selected?**
+**Q: How were the 56 studies selected?**
 
 Studies were identified through a PRISMA 2020-compliant search across
 six bibliographic databases (PubMed, IEEE Xplore, Web of Science,
-Scopus, Embase, ACM Digital Library) and supplementary sources
-(arXiv, citation tracking, related survey screening). All 47 included
+Scopus) and supplementary sources
+(arXiv, citation tracking, related survey screening). All 56 included
 studies satisfy three quality criteria:
 
 - The LLM is the primary methodological contribution
