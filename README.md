@@ -304,3 +304,13 @@ If this repository or survey is useful for your research, please cite:
 
 [![GitHub stars](https://img.shields.io/github/stars/walid798/llms-in-medicine?style=social)](https://github.com/walid798/llms-in-medicine)
 
+## Star History
+
+<a href="https://www.star-history.com/?repos=walid798%2Fllms-in-medicine&type=date&legend=bottom-right">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=walid798/llms-in-medicine&type=date&theme=dark&legend=bottom-right" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=walid798/llms-in-medicine&type=date&legend=bottom-right" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=walid798/llms-in-medicine&type=date&legend=bottom-right" />
+ </picture>
+</a>
+
