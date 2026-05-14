@@ -224,7 +224,7 @@ synthesizing **56 studies** on LLMs in clinical medicine, organized around
 | 2024 | **A multimodal generative AI copilot for human pathology** | PathChat (UNI ViT + LLaMA 13B; projection fusion) | *Nature* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41586-024-07618-3) [![Code](https://img.shields.io/badge/Code-Available-green)](https://github.com/fedshyvana/pathology_mllm_training) |
 | 2024 | **Towards Generalist Biomedical AI** | Med-PaLM M (PaLM-E + ViT; 14-task unified) | *NEJM AI* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://ai.nejm.org/doi/full/10.1056/AIoa2300138) |
 | 2024 | **LLM-Driven Multimodal Target Volume Contouring in Radiation Oncology** | LLMSeg (3D CT + clinical text; cross-attention) | *Nature Communications* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://www.nature.com/articles/s41467-024-53387-y) [![Code](https://img.shields.io/badge/Code-Available-green)](https://github.com/tvseg/MM-LLM-RO)|
-| 2025 | **MedTVT-R1: A Multimodal LLM Empowering Medical Reasoning and Diagnosis** | MedTVT-R1 (LLaMA3.2 + ECG + CXR + Lab; adaptive cross-modal attention) | *arXiv* | [![Paper](https://img.shields.io/badge/Paper-blue)](MedTVT-R1: A Multimodal LLM Empowering Medical Reasoning and Diagnosis) [![Code](https://img.shields.io/badge/Code-Available-green)](https://github.com/keke-nice/MedTVT-R1) |
+| 2025 | **MedTVT-R1: A Multimodal LLM Empowering Medical Reasoning and Diagnosis** | MedTVT-R1 (LLaMA3.2 + ECG + CXR + Lab; adaptive cross-modal attention) | *arXiv* | ![Paper](https://img.shields.io/badge/Paper-blue) [![Code](https://img.shields.io/badge/Code-Available-green)](https://github.com/keke-nice/MedTVT-R1) |
 | 2024 | **MEDFuse: Multimodal EHR Data Fusion with Masked Lab-Test Modeling and Large Language Models** | MEDFuse (lab-test transformer + LLM notes; cross-attention intermediate fusion) | *CIKM 2024* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://dl.acm.org/doi/10.1145/3627673.3679962) |
 | 2025 | **SMFusion: Semantic-Preserving Fusion of Multimodal Medical Images for Enhanced Clinical Diagnosis** | SMFusion (BiomedGPT text + cross-attention + PET/MRI) | *IEEE JBHI* | [![Paper](https://img.shields.io/badge/Paper-blue)](https://ieeexplore.ieee.org/abstract/document/11319543) |
 
@@ -262,11 +262,12 @@ Full annotated table with access labels in [papers/datasets.md](papers/datasets.
 
 | Title | Venue | Year | Link |
 |-------|-------|------|------|
-| Large language models in medicine | *Nature Medicine* | 2023 | [Paper](https://www.nature.com/articles/s41591-023-02448-8) |
-| Foundation models for generalist medical AI | *Nature* | 2023 | [Paper](https://www.nature.com/articles/s41586-023-05881-4) |
-| Precision and Personalization: LLMs in Diagnostic Accuracy | *IEEE JBHI* | 2025 | [Paper](https://doi.org/10.1109/JBHI.2025.3584179) |
-| A survey of large language models in medicine | *arXiv* | 2023 | [Paper](https://arxiv.org/abs/2311.05112) |
+| Large Language Models in Medicine: Clinical Applications, Technical Challenges, and Ethical Considerations | *Healthcare Informatics Research* | 2025 | [Paper](https://synapse.koreamed.org/articles/1516090747) |
+| Precision and Personalization: LLMs in Diagnostic Accuracy | *IEEE JBHI* | 2025 | [Paper](https://ieeexplore.ieee.org/document/11059267) |
+| Large Language Models in Healthcare and Medical Applications: A Review | *Bioengineering* | 2024 | [Paper](https://www.mdpi.com/2306-5354/12/6/631) |
+| A Survey of Large Language Models in Medicine: Progress, Application, and Challenge | *arXiv* | 2024 | [Paper](https://arxiv.org/abs/2311.05112) |
 | The future landscape of LLMs in medicine | *Communications Medicine* | 2023 | [Paper](https://www.nature.com/articles/s43856-023-00370-1) |
+| Large language models in medicine | *Nature Medicine* | 2023 | [Paper](https://www.nature.com/articles/s41591-023-02448-8) |
 
 
 ---
