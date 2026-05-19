@@ -8,9 +8,9 @@
 [![Categories](https://img.shields.io/badge/Categories-10-green)](README.md)
 [![Updated](https://img.shields.io/badge/Updated-April%202025-orange)](CHANGELOG.md)
 
-**A curated repository accompanying our systematic review:**
+**A curated repository accompanying our review:**
 
-> **Large Language Models in Clinical Medicine: A Systematic Review of Multimodal Architectures, Benchmarks, and Personalized Healthcare Applications**
+> **Large Language Models in Clinical Medicine: A Brief Review of Multimodal Architectures, Benchmarks, and Personalized Healthcare Applications**
 >
 > Walid Mohamed, Mohamed Elsharkawy, Shahad Al Hamadani, Rafia Fayyaz, Usama Mousattat, 
 > Taysir Hassan A. Soliman, Amr Mohamed Abdelaziz, 
