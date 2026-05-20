@@ -47,7 +47,7 @@
 
 ## 📊 Survey Overview
 
-This repository accompanies a **PRISMA 2020-compliant systematic review**
+This repository accompanies a **PRISMA 2020-compliant review**
 synthesizing **56 studies** on LLMs in clinical medicine, organized around
 **personalized healthcare** as a central analytical framework.
 
