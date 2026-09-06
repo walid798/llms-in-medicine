@@ -82,3 +82,19 @@ To suggest additions or corrections, please open an issue using the [model addit
 ---
 
 *Part of [`walid798/llms-in-medicine`](https://github.com/walid798/llms-in-medicine)*
+
+# Foundation and precursor language-model families
+
+This page is **contextual background**, not the primary quantitative study register.
+
+The final review applies a study-level eligibility rule: standalone encoder-only PLMs (for example, BERT-family biomedical/clinical encoders) are not counted in the primary corpus when used independently. They may still be cited to explain the evolution of clinical language modeling or when embedded inside an LLM-centered clinical system.
+
+| Paradigm | Representative models | Role in the review |
+|---|---|---|
+| Encoder-based clinical PLMs | BERT, BioBERT, ClinicalBERT, PubMedBERT | Historical/contextual representation learning |
+| Generative biomedical/clinical LMs | BioGPT, GPT-3.5/4, Med-PaLM, medical LLaMA variants | Generation, QA, summarization, clinical reasoning |
+| Multimodal medical LLMs | LLaVA-Med, Med-PaLM M, PathChat, MAIRA-2 | Image–text and heterogeneous clinical reasoning |
+| Retrieval/reasoning systems | Medical RAG, Graph-RAG, multimodal RAG, reasoning-optimized LLMs | External evidence grounding and multi-step inference |
+| Agentic clinical systems | Tool-using agents, multi-agent systems, memory-/workflow-enabled agents | Tool orchestration, iterative actions, workflow integration |
+
+For the actual 145 included studies, use [`../papers/studies.md`](../papers/studies.md) or [`../data/studies.csv`](../data/studies.csv).
