@@ -1,431 +1,78 @@
-# Multimodal Medical LLM Papers
+# Multimodal fusion evidence
 
-Detailed reference for all multimodal studies included in the survey.
-For the summary table see the main [README](../README.md).
+The final corpus contains **72/145 (49.7%)** fusion-active studies (F1–F5). Deep, decision-level, or hybrid fusion (F3–F5) occurs in **44/145 (30.3%)** studies.
 
----
-
-## Radiology Report Generation
-
-### R2GenGPT (2023)
-- **Authors:** Wang et al.
-- **Venue:** Meta-Radiology
-- **Model:** R2GenGPT
-- **Dataset:** IU-Xray, MIMIC-CXR
-- **Key Results:** Competitive SOTA; only 5M trainable parameters
-- **Validation:** Benchmark
-- **Personalization:** Parameter-efficient domain transfer
-- **Links:** [Paper](https://www.sciencedirect.com/science/article/pii/S2950162823000334) · 
-[Code](https://github.com/wang-zhanyu/R2GenGPT)
-
-### LLaVA-Med (2023)
-- **Authors:** Li et al.
-- **Venue:** NeurIPS 2023
-- **Model:** LLaVA-Med (CLIP ViT + Vicuna/LLaMA)
-- **Dataset:** PMC-15M (biomedical figure–captions)
-- **Key Results:** Outperforms supervised SOTA on biomedical VQA metrics
-- **Validation:** Benchmark
-- **Personalization:** Instruction-tuned biomedical multimodal assistant
-- **Links:** [Paper](https://neurips.cc/virtual/2023/poster/73643) · 
-[Code](https://github.com/microsoft/LLaVA-Med)
-
-### MAIRA-2 (2024)
-- **Authors:** Yuan et al.
-- **Venue:** arXiv
-- **Model:** MAIRA-2 (region-grounded VLM)
-- **Dataset:** MIMIC-CXR
-- **Key Results:** Grounded radiology report generation with spatial localization
-- **Validation:** Benchmark
-- **Personalization:** Region-level grounded findings generation
-- **Links:** [Paper](https://arxiv.org/abs/2406.04449)
-
-### Flamingo-CXR (2024)
-- **Authors:** Tanno et al.
-- **Venue:** Nature Medicine
-- **Model:** Flamingo-CXR (clinician-in-loop)
-- **Dataset:** MIMIC-CXR; IND1 (prospective deployment)
-- **Key Results:** 56.1% ICU preferable; 77.7% outpatient preferable
-- **Validation:** Prospective
-- **Personalization:** Longitudinal patient context integration
-- **Links:** [Paper](https://www.nature.com/articles/s41591-024-03302-1)
-
-### BrainGPT (2025)
-- **Authors:** Li et al.
-- **Venue:** Nature Communications
-- **Model:** BrainGPT (CVIT-based)
-- **Dataset:** 3D-BrainCT (18,885 scans)
-- **Key Results:** FORTE F1 0.71; 74% Turing indistinguishability pass
-- **Validation:** Internal + External
-- **Personalization:** 3D volumetric report synthesis
-- **Links:** [Paper](https://www.nature.com/articles/s41467-025-57426-0) · 
-[Code](https://doi.org/10.5281/zenodo.14852686)
-
-### MediVLM (2025)
-- **Authors:** Goswami et al.
-- **Venue:** ACL Anthology (EMNLP Findings)
-- **Model:** MediVLM
-- **Dataset:** 3 radiology benchmarks
-- **Key Results:** Annotation-free with severity scoring
-- **Validation:** Benchmark
-- **Personalization:** Unsupervised severity-aware reporting
-- **Links:** [Paper](https://aclanthology.org/2025.findings-emnlp.544/)
-
----
-
-## Pathology Report Generation
-
-### WsiCaption — MI-Gen (2024)
-- **Authors:** Chen et al.
-- **Venue:** MICCAI 2024
-- **Model:** MI-Gen (multiple-instance generation)
-- **Dataset:** PathText/TCGA (~9,000 WSI–text pairs)
-- **Key Results:** BRCA subtyping F1 0.838
-- **Validation:** Internal
-- **Personalization:** Gigapixel WSI multi-instance report generation
-- **Links:** [Paper](https://link.springer.com/chapter/10.1007/978-3-031-72083-3_51) · 
-[Code](https://github.com/cpystan/Wsi-Caption)
-
-### HistGen (2024)
-- **Authors:** Shi et al.
-- **Venue:** MICCAI 2024
-- **Model:** HistGen (local-global feature encoding + cross-modal context)
-- **Dataset:** TCGA histopathology WSIs
-- **Key Results:** Improved BLEU and ROUGE over prior report generation baselines
-- **Validation:** Internal
-- **Personalization:** Local-global hierarchical feature fusion for WSI reporting
-- **Links:** [Paper](https://link.springer.com/chapter/10.1007/978-3-031-72083-3_18) · 
-[Code](https://github.com/dddavid4real/HistGen)
-
-### Clinical-Grade Multi-organ VLM (2024)
-- **Authors:** Chen et al.
-- **Venue:** MICCAI 2024
-- **Model:** Semantically Guided Medical Text Foundation Model
-- **Dataset:** Multi-organ TCGA WSIs
-- **Key Results:** Clinical-grade reporting across multiple organ types
-- **Validation:** Internal
-- **Personalization:** Semantically guided multi-organ report synthesis
-- **Links:** [Paper](https://link.springer.com/chapter/10.1007/978-3-031-72083-3_3) · 
-[Code](https://github.com/hvcl/Clinical-grade-Pathology-Report-Generation/tree/main)
-
-### Multi-level Regional + LLM Refinement (2025)
-- **Authors:** (Multi-level Regional)
-- **Venue:** Computer Methods and Programs in Biomedicine
-- **Model:** Multi-level regional feature selection + LLM refinement
-- **Dataset:** TCGA WSIs
-- **Key Results:** Improved report generation via knowledge retrieval and 
-regional feature selection
-- **Validation:** Internal
-- **Links:** [Paper](https://www.sciencedirect.com/science/article/pii/S016926072500094X)
-
-### TITAN (2025)
-- **Authors:** Shaikovski et al.
-- **Venue:** Nature Medicine
-- **Model:** TITAN (CONCH + Transformer)
-- **Dataset:** TCGA multi-cancer WSIs
-- **Key Results:** Multimodal whole-slide foundation model; SOTA across 
-pathology generation and retrieval tasks
-- **Validation:** Benchmark
-- **Personalization:** Whole-slide foundation model for diverse cancer types
-- **Links:** [Paper](https://www.nature.com/articles/s41591-025-03982-3) · 
-[Code](https://github.com/mahmoodlab/TITAN)
-
-### PolyPath — Gemini 1.5 Flash (2025)
-- **Authors:** (PolyPath)
-- **Venue:** Modern Pathology
-- **Model:** Gemini 1.5 Flash (1M-token context)
-- **Dataset:** Multi-slide pathology cases
-- **Key Results:** Multi-slide pathology report generation using 1M-token 
-context window
-- **Validation:** Internal
-- **Personalization:** Long-context multi-slide reasoning for complex cases
-- **Links:** [Paper](https://www.sciencedirect.com/science/article/pii/S089339522500184X)
-
-### MIL + T5 Bladder Reports (2025)
-- **Authors:** Kim et al.
-- **Venue:** IEEE Access
-- **Model:** MIL + T5 (modular pipeline)
-- **Dataset:** K-MEDICON 2024 (752 bladder WSIs)
-- **Key Results:** ROUGE 0.87; BLEU-4 0.94
-- **Validation:** Internal
-- **Personalization:** Structured label-conditioned report generation
-- **Links:** [Paper](https://ieeexplore.ieee.org/abstract/document/11078283)
-
-### RAG-based Gastric Pathology (2025)
-- **Authors:** Hu et al.
-- **Venue:** Computers in Biology and Medicine
-- **Model:** RAG + LLM pipeline
-- **Dataset:** GastricADC (991 WSIs); Gastric-3300 (3,309 WSIs)
-- **Key Results:** ROUGE-L 0.690 (Gastric-3300); 0.568 (GastricADC)
-- **Validation:** Internal + External
-- **Personalization:** Retrieval-augmented historical case referencing
-- **Links:** [Paper](https://www.sciencedirect.com/science/article/pii/S016926072500094X)
-
----
-
-## Medical Visual Question Answering
-
-### LLaVA-Med (2023)
-- **Authors:** Li et al.
-- **Venue:** NeurIPS 2023
-- **Model:** LLaVA-Med
-- **Dataset:** PMC-15M (biomedical figure–captions)
-- **Key Results:** Outperforms supervised SOTA on VQA metrics
-- **Validation:** Benchmark
-- **Personalization:** Instruction-tuned biomedical multimodal assistant
-- **Links:** [Paper](https://arxiv.org/abs/2306.00890) · 
-[Code](https://github.com/microsoft/LLaVA-Med)
-
-### PMC-VQA (2024)
-- **Authors:** Zhang et al.
-- **Venue:** Communications Medicine
-- **Model:** PMC-VQA (PMC-CLIP + PMC-LLaMA)
-- **Dataset:** PMC-VQA (227k pairs, 149k images)
-- **Key Results:** SOTA on VQA-RAD, SLAKE, ImageClef-2019
-- **Validation:** Benchmark
-- **Personalization:** Open-ended generative response over fixed answer sets
-- **Links:** [Paper](https://www.nature.com/articles/s43856-024-00709-2) · 
-[Code](https://github.com/xiaoman-zhang/PMC-VQA)
-
-### CH-ICL (2024)
-- **Authors:** Liang et al.
-- **Venue:** Information Processing & Management
-- **Model:** CH-ICL (BioMedCLIP + PubMedCLIP)
-- **Dataset:** PathVQA, VQA-RAD, SLAKE
-- **Key Results:** VQA-RAD 74.28% / 77.08%; SLAKE 82.19% / 88.12%
-- **Validation:** Benchmark
-- **Personalization:** Knowledge-scope-guided retrieval for domain reasoning
-- **Links:** [Paper](https://www.sciencedirect.com/science/article/pii/S030645732400164X)
-
-### OmniMedVQA (2024)
-- **Authors:** Hu et al.
-- **Venue:** CVPR 2024
-- **Model:** Evaluation benchmark (12 modalities)
-- **Dataset:** Large-scale multi-modality medical VQA benchmark
-- **Key Results:** Comprehensive evaluation of medical LVLMs across 12 imaging 
-modalities and diverse disease types
-- **Validation:** Benchmark
-- **Links:** [Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Hu_OmniMedVQA_A_New_Large-Scale_Comprehensive_Evaluation_Benchmark_for_Medical_LVLM_CVPR_2024_paper.pdf)
-
-### Falcon Med-VQA (2024)
-- **Authors:** Bawazir et al.
-- **Venue:** Proceedings of the AAAI Conference on Artificial Intelligence
-- **Model:** Falcon Med-VQA
-- **Dataset:** Medical VQA benchmarks
-- **Key Results:** Uncertainty-aware QA with confidence scores and explainability
-- **Validation:** Benchmark
-- **Personalization:** Uncertainty-aware clinical QA
-- **Links:** [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/35346)
-
-### MiniMedGPT (2025)
-- **Authors:** Alsabbagh et al.
-- **Venue:** Pattern Recognition Letters
-- **Model:** MiniMedGPT (EVA-CLIP + LLaMA2-7B)
-- **Dataset:** VQA-RAD, SLAKE
-- **Key Results:** Competitive SOTA; fewest trainable params among 6 models
-- **Validation:** Benchmark
-- **Personalization:** Efficient parameter adaptation for resource-constrained 
-deployment
-- **Links:** [Paper](https://www.sciencedirect.com/science/article/pii/S0167865525000017)
-
-### FAVP (2025)
-- **Authors:** Yu et al.
-- **Venue:** AAAI 2025
-- **Model:** FAVP (ViT-G/14 + Vicuna-7B)
-- **Dataset:** VQA-RAD, SLAKE, DME
-- **Key Results:** SOTA on generative open-set VQA-RAD and SLAKE
-- **Validation:** Benchmark
-- **Personalization:** Organ-adaptive region-level visual prompts
-- **Links:** [Paper](https://github.com/OpenMICG/FAVP) · 
-[Code](https://github.com/OpenMICG/FAVP)
-
-### CIF — Causal Inference Framework (2025)
-- **Authors:** ...
-- **Venue:** IEEE Transactions
-- **Model:** CIF (CLIP ViT-B/16 + LLaMA 7B/13B)
-- **Dataset:** VQA-RAD, SLAKE, PathVQA, PMC-VQA, ProbMed
-- **Key Results:** Significant accuracy improvement across five datasets
-- **Validation:** Benchmark
-- **Personalization:** Causal deconfounding of image–question bias
-- **Links:** [Paper](https://arxiv.org/html/2512.09433v2)
-
----
-
-## LLM-Guided Image Segmentation
-
-### LLM4Seg (2025)
-- **Authors:** Tang et al.
-- **Venue:** MICCAI 2025
-- **Model:** LLM4Seg (frozen LLaMA3.2-1B or DeepSeek layer + CNN encoder-decoder)
-- **Dataset:** BUSI, TNSCUI, ISIC, Kvasir, BTCV
-- **Key Results:** SOTA across 2D/3D modalities; minimal trainable params
-- **Validation:** Internal
-- **Personalization:** Generalizable LLM semantic priors across imaging modalities
-- **Links:** [Paper](https://link.springer.com/chapter/10.1007/978-3-032-05127-1_39) · 
-[Code](https://github.com/FengheTan9/LLM4Seg)
-- **Note:** LLM functions as semantic prior; segmentation decoder performs 
-pixel-level inference
-
-### MedVisionLlama (2025)
-- **Authors:** Kumar et al.
-- **Venue:** ICCV 2025 Workshop (CVAMD)
-- **Model:** MedVisionLlama (frozen Llama-3.1-8B blocks + ViT encoder; LoRA)
-- **Dataset:** Medical Segmentation Decathlon (10 tasks)
-- **Key Results:** Improved Dice, Jaccard, HD95 over ViT baseline
-- **Validation:** Internal
-- **Personalization:** LLM-enhanced attention for data-efficient 3D segmentation
-- **Links:** [Paper](https://arxiv.org/abs/2410.02458) · 
-[Code](https://github.com/AS-Lab/Marthi-et-al-2025-MedVisionLlama-Pre-Trained-LLM-Layers-to-Enhance-Medical-Image-Segmentation)
-- **Note:** LLM provides attention priors; metrics reflect full pipeline performance
-
-### Zeus (2025)
-- **Authors:** Dai et al.
-- **Venue:** International Journal of Machine Learning and Cybernetics
-- **Model:** Zeus (frozen Vicuna as instruction generator + SAM mask decoder)
-- **Dataset:** MSD-Brain, MSD-Prostate, CHAOS
-- **Key Results:** Superior to influential baselines across multimodal settings
-- **Validation:** Internal
-- **Personalization:** Zero-shot LLM instruction generation without paired VL data
-- **Links:** [Paper](https://link.springer.com/article/10.1007/s13042-025-02742-6)
-- **Note:** LLM generates instructions; SAM performs segmentation
-
-### HCR — LLM Clinical Guardrails (2025)
-- **Authors:** (HCR)
-- **Venue:** arXiv
-- **Model:** HCR (Gemini 2.5 Flash; hierarchical multi-stage prompting)
-- **Dataset:** Medical image segmentation benchmarks
-- **Key Results:** LLM-based clinical guardrails improve segmentation reliability 
-beyond pixel agreement
-- **Validation:** Benchmark
-- **Personalization:** Hierarchical clinical consistency checking for safe deployment
-- **Links:** [Paper](https://arxiv.org/abs/2506.01841)
-- **Note:** LLM acts as clinical validator; segmentation model performs pixel inference
-
----
-
-## Multimodal Clinical Diagnosis & Reasoning
-
-### GPT-4V Chest X-Ray (2024)
-- **Authors:** Zhou et al.
-- **Venue:** Radiology: Artificial Intelligence
-- **Model:** GPT-4V (zero-shot / few-shot)
-- **Dataset:** 100 CXR (50 NIH, 50 MIDRC)
-- **Key Results:** Zero-shot F1: 7.3% (NIH), 18.2% (MIDRC)
-- **Validation:** Internal
-- **Personalization:** Dataset-specific deployment context sensitivity
-- **Links:** [Paper](https://pubmed.ncbi.nlm.nih.gov/38713028/)
-
-### GPT-4V Histopathology (2024)
-- **Authors:** Ferber et al.
-- **Venue:** Nature Communications
-- **Model:** GPT-4V (in-context learning; no fine-tuning)
-- **Dataset:** CRC100K; MHIST; PatchCamelyon
-- **Key Results:** Matches or outperforms specialist networks; no parameter updates
-- **Validation:** Benchmark
-- **Personalization:** Annotation-free deployment for non-technical clinicians
-- **Links:** [Paper](https://www.nature.com/articles/s41467-024-51465-9) · 
-[Code](https://github.com/Dyke-F/GPT-4V-In-Context-Learning)
-
-### SkinGPT-4 (2024)
-- **Authors:** Zhou et al.
-- **Venue:** Nature Communications
-- **Model:** SkinGPT-4 (LLaMA-2-13B + ViT)
-- **Dataset:** 52,929 skin disease images + clinical notes; 150 real cases
-- **Key Results:** Autonomous diagnosis confirmed by dermatologists
-- **Validation:** Internal
-- **Personalization:** Patient-uploaded photographs for point-of-care dermatology
-- **Links:** [Paper](https://www.nature.com/articles/s41467-024-50043-3) · 
-[Code](https://github.com/JoshuaChou2018/SkinGPT-4)
-
-### PathChat (2024)
-- **Authors:** Shaikovski et al.
-- **Venue:** Nature
-- **Model:** PathChat (UNI ViT + LLaMA 13B; projection fusion)
-- **Dataset:** Pathology images + clinical QA pairs
-- **Key Results:** Multimodal generative AI copilot for human pathology
-- **Validation:** Benchmark + Clinician evaluation
-- **Personalization:** Pathology-specific multimodal dialogue
-- **Links:** [Paper](https://www.nature.com/articles/s41586-024-07618-3) · 
-[Code](https://github.com/fedshyvana/pathology_mllm_training)
-
-### Med-PaLM M (2024)
-- **Authors:** Tu et al.
-- **Venue:** NEJM AI
-- **Model:** Med-PaLM M (PaLM-E + ViT; 14-task unified)
-- **Dataset:** 14 biomedical tasks across imaging and text
-- **Key Results:** Generalist biomedical AI; SOTA across radiology, 
-pathology, genomics, and clinical NLP tasks
-- **Validation:** Benchmark
-- **Personalization:** Unified generalist model covering rare and 
-multi-domain clinical tasks
-- **Links:** [Paper](https://ai.nejm.org/doi/full/10.1056/AIoa2300138)
-
-### LLMSeg — Radiation Oncology Contouring (2024)
-- **Authors:** Shi et al.
-- **Venue:** Nature Communications
-- **Model:** LLMSeg (3D CT + clinical text; cross-attention)
-- **Dataset:** Radiation oncology CT volumes + clinical reports
-- **Key Results:** LLM-driven multimodal target volume contouring 
-outperforms image-only baselines
-- **Validation:** Internal
-- **Personalization:** Clinical-text-guided contouring for patient-specific 
-treatment planning
-- **Links:** [Paper](https://www.nature.com/articles/s41467-024-53387-y) · 
-[Code](https://github.com/tvseg/MM-LLM-RO)
-
-### M3FM (2025)
-- **Authors:** Liu et al.
-- **Venue:** npj Digital Medicine
-- **Model:** M3FM (multimodal multidomain multilingual)
-- **Dataset:** 9 datasets; CXR + CT; English + Chinese
-- **Key Results:** Zero-shot across 16 disease categories and two languages
-- **Validation:** Benchmark
-- **Personalization:** Rare disease and non-English population coverage
-- **Links:** [Paper](https://www.nature.com/articles/s41746-024-01339-7)
-
-### Claude 3.5 Laryngeal Cancer (2025)
-- **Authors:** Liang et al.
-- **Venue:** International Journal of Surgery
-- **Model:** Claude 3.5 Sonnet (+ 5 MLLMs)
-- **Dataset:** 169 images; 1,084 questions; 50 laryngeal cancer patients
-- **Key Results:** 79.43% accuracy (95% CI: 77.02–81.84%)
-- **Validation:** Internal
-- **Personalization:** Multi-modality surgical decision support
-- **Links:** [Paper](https://journals.lww.com/international-journal-of-surgery/fulltext/2025/03000/multimodal_large_language_models_address_clinical.36.aspx)
-
-### MedTVT-R1 (2025)
-- **Authors:** (MedTVT-R1)
-- **Venue:** arXiv
-- **Model:** MedTVT-R1 (LLaMA3.2 + ECG + CXR + Lab; adaptive 
-cross-modal attention)
-- **Dataset:** Multi-modal EHR (ECG, CXR, lab values)
-- **Key Results:** Multimodal LLM empowering medical reasoning and diagnosis 
-across heterogeneous clinical inputs
-- **Validation:** Benchmark
-- **Personalization:** Adaptive cross-modal attention for patient-specific 
-physiological reasoning
-- **Links:** [Paper](https://arxiv.org/abs/2506.18512) · 
-[Code](https://github.com/keke-nice/MedTVT-R1)
-
-### MEDFuse (2024)
-- **Authors:** (MEDFuse)
-- **Venue:** CIKM 2024
-- **Model:** MEDFuse (lab-test transformer + LLM notes; cross-attention 
-intermediate fusion)
-- **Dataset:** MIMIC-III EHR (lab tests + clinical notes)
-- **Key Results:** Multimodal EHR fusion with masked lab-test modeling 
-outperforms unimodal baselines
-- **Validation:** Benchmark
-- **Personalization:** Masked lab-test modeling for missing data robustness
-- **Links:** [Paper](https://dl.acm.org/doi/10.1145/3627673.3679962)
-
-### SMFusion (2025)
-- **Authors:** (SMFusion)
-- **Venue:** IEEE JBHI
-- **Model:** SMFusion (BiomedGPT text + cross-attention + PET/MRI)
-- **Dataset:** PET/MRI multi-modal clinical imaging
-- **Key Results:** Semantic-preserving fusion of multimodal medical images 
-for enhanced clinical diagnosis
-- **Validation:** Internal
-- **Personalization:** Semantically guided cross-modal fusion for 
-multi-scanner clinical data
-- **Links:** [Paper](https://ieeexplore.ieee.org/abstract/document/11319543)
+| ID | Year | Model/System | Domain | Modal inputs | Stage | Operator | Direction | Temporal fusion |
+|---|---:|---|---|---|---|---|---|---|
+| S015 | 2026 | ChatHealthAI | EHR / Clinical Prediction | Text + EHR + Structured clinical + Labs | F2 | Task-aware resampling / latent EHR-to-LLM alignment + refined event text | Unidirectional | Longitudinal |
+| S016 | 2026 | AgentRx | Critical Care / Multimodal EHR | Text + 2D image + EHR + Structured clinical + Labs | F5 | Input/context concatenation; modality-specialized agents; majority vote/debate/coordination | Iterative | Prior-current |
+| S018 | 2026 | MoMA | Multimodal EHR / Trauma / Substance Use | Text + 2D image + EHR + Structured clinical + Labs | F5 | Textual transformation; concatenation; hierarchical LLM aggregation | Iterative | Prior-current |
+| S020 | 2025 | Autonomous oncology AI agent | Oncology / Precision Medicine | Text + 2D image + 3D image + WSI + EHR + Structured clinical + Labs | F5 | Tool-mediated multimodal fusion; textual transformation; web/knowledge retrieval | Iterative | Prior-current |
+| S021 | 2026 | MIRA | Emergency Medicine / EHR | Text + EHR + Structured clinical + Labs | F5 | Agentic retrieval/action over EHR tools and structured/text evidence | Iterative | Prior-current |
+| S027 | 2025 | BrainGPT | Neuroradiology / 3D CT | Text + 3D image | F3 | Cross-attention | Unidirectional | None |
+| S028 | 2023 | R2GenGPT | Radiology / report generation | Text + 2D image | F2 | MLP | Unidirectional | None |
+| S029 | 2023 | LLaVA-Med | Biomedical multimodal QA | Text + 2D image | F2 | MLP | Unidirectional | None |
+| S030 | 2024 | MAIRA-2 | Radiology / grounded report generation | Text + 2D image | F2 | MLP | Unidirectional | None |
+| S031 | 2025 | MediVLM | Radiology / report generation | Text + 2D image | F3 | Cross-attention | Unidirectional | None |
+| S032 | 2024 | PMC-VQA / PMC-LLaMA | Medical VQA | Text + 2D image | F2 | Linear projection / MLP | Unidirectional | None |
+| S034 | 2025 | CIF | Medical VQA / causal reasoning | Text + 2D image + Structured clinical | F3 | Cross-attention + feature injection | Unidirectional | None |
+| S035 | 2025 | MiniMedGPT | Medical VQA / efficient MLLM | Text + 2D image | F2 | Linear projection | Unidirectional | None |
+| S036 | 2025 | FAVP | Medical VQA / adaptive prompting | Text + 2D image | F3 | Attention weighting | Unidirectional | None |
+| S037 | 2025 | Falcon Med-VQA | Medical VQA / uncertainty | Text + 2D image | F3 | Q-Former/query tokens | Unidirectional | None |
+| S041 | 2024 | GPT-4V | Chest radiology / multimodal diagnosis | Text + 2D image | F3 | Other | Unidirectional | None |
+| S042 | 2025 | Claude 3.5 Sonnet + 5 MLLMs | Laryngeal cancer surgery | Text + 2D image + 3D image | F3 | Other | Unidirectional | None |
+| S043 | 2024 | GPT-4V | Cancer pathology | Text + 2D image | F3 | Other | Unidirectional | None |
+| S044 | 2025 | M3FM | Radiology / multilingual diagnosis | Text + 2D image + 3D image | F3 | Cross-attention / model-specific | Unidirectional | None |
+| S045 | 2024 | PathChat | Pathology | Text + 2D image + WSI | F2 | Linear projection / MLP | Unidirectional | None |
+| S046 | 2024 | Med-PaLM M | Generalist biomedical AI | Text + 2D image + 3D image + WSI | F3 | Other | Unidirectional | None |
+| S047 | 2024 | LLMSeg | Radiation oncology | Text + 3D image + Structured clinical | F3 | Bidirectional cross-attention | Bidirectional | None |
+| S048 | 2026 | ClinFusion | General Medical Imaging / 2D & 3D | Text + 2D image + 3D image | F5 | Compositional encoder fusion; cascaded locality-aware fusion; 2D-anchored depth-aware 3D fusion | Iterative | None |
+| S049 | 2026 | Multimodal autoregressive EHR foundation model | Longitudinal EHR / Multimodal Clinical Data | Text + 2D image + EHR + Structured clinical + Labs | F3 | Latent compression; gated cross-attention; temporal alignment masking | Unidirectional | Longitudinal |
+| S050 | 2025 | mpLLM | Neuroradiology / Multiparametric MRI | Text + 3D image | F3 | Modality-level MoE; token-level MoE; prompt-conditioned routing; multi-image token fusion | Unidirectional | None |
+| S051 | 2026 | 2D-to-3D Phi-3-V with TGH-MoE | 3D CT / General Medical Imaging | Text + 3D image | F5 | 2D-to-3D attention adaptation; token-level MoE; task-level hard-routed MoE; image-text concatenation | Unidirectional | None |
+| S052 | 2024 | MedPLIB | General Biomedical Imaging | Text + 2D image | F5 | Feature concatenation; visual prompt injection; token-level MoE; task-specialized VL/grounding experts; [SEG]→pixel decoder | Unidirectional | None |
+| S053 | 2024 | Med-2E3 | 3D CT | Text + 3D image | F3 | Dual 3D/2D feature fusion; text-guided inter-slice attention; connector alignment | Unidirectional | None |
+| S054 | 2025 | MedRegion-CT | Radiology / 3D CT | Text + 3D image | F5 | Global/local SlowFast tokenization; hierarchical mask-token fusion; lesion-attribute textualization; token concatenation | Unidirectional | None |
+| S055 | 2026 | MedVL-SAM2 | 3D CT / Segmentation | Text + 3D image | F5 | 3D token compression/alignment; text+visual token fusion; [SEG] hidden-state coupling to SAM2 | Unidirectional | None |
+| S056 | 2026 | MLLM-HWSI | Computational Pathology / WSI | Text + WSI | F5 | Cell/patch/region/WSI hierarchical fusion; contrastive alignment; cross-scale consistency; scale-specific projection | Unidirectional | None |
+| S057 | 2025 | Citrus-V | General Medical Imaging | Text + 2D image | F5 | Joint vision/text token fusion; dual image encoders; [SEG]-mediated reasoning-to-segmentation transfer | Unidirectional | None |
+| S058 | 2026 | UniReason-Med | General Medical Imaging / 2D & 3D | Text + 2D image + 3D image | F3 | Self-generated box/cuboid grounding; region-token injection; interleaved text/visual reasoning tokens | Iterative | None |
+| S059 | 2025 | V2T-CoT | Medical VQA / Radiology & Pathology | Text + 2D image | F3 | Phrase grounding; regional/global visual attention; cross-modal multi-head attention; iterative text refinement | Bidirectional | None |
+| S060 | 2025 | PolyPath / Gemini 1.5 Flash | Pathology / WSI | Text + WSI | F3 | Other | Iterative | None |
+| S061 | 2024 | SkinGPT-4 | Dermatology | Text + 2D image | F2 | Linear projection / MLP | Unidirectional | None |
+| S062 | 2025 | MedTVT-R1 | Multimodal clinical diagnosis | Text + 2D image + Structured clinical + Labs | F5 | Attention weighting / gated adaptive fusion | Iterative | None |
+| S064 | 2026 | EHR-RAGp | Longitudinal EHR / Clinical Prediction | Text + EHR + Structured clinical + Labs | F2 | Multi-granular longitudinal chunk retrieval + prototype-guided representation fusion | Unidirectional | Longitudinal |
+| S066 | 2025 | Traj-CoA | Lung Cancer / Longitudinal EHR | Text + EHR + Structured clinical + Labs | F1 | Structured/unstructured EHR serialization + sequential memory-based agent aggregation | Iterative | Longitudinal |
+| S069 | 2026 | AI4Doctor / AI4Doc-LLM | General EHR / Clinical Decision Support | Text + EHR + Structured clinical + Labs | F1 | Temporal EMR serialization + patient-specific similar-record/guideline retrieval | Iterative | Longitudinal |
+| S070 | 2026 | Generative Deep Patient (GDP) | EHR / Multimodal Clinical Data | Text + EHR + Structured clinical + Labs | F3 | Structured-EHR and unstructured-text cross-attention into generative decoder | Bidirectional | Longitudinal |
+| S071 | 2026 | EHRWorld | Longitudinal EHR / Digital Patient Modeling | Text + EHR + Structured clinical + Labs | F1 | Profile/event serialization and causal longitudinal state modeling | Iterative | Longitudinal |
+| S072 | 2025 | DT-GPT | Longitudinal EHR / Digital Twins | Text + EHR + Structured clinical + Labs | F1 | Serialized longitudinal patient-state fusion into autoregressive LLM | Unidirectional | Longitudinal |
+| S073 | 2025 | HC-LLM | Radiology / Longitudinal Imaging | Text + 2D image | F5 | Current/prior image fusion; prior-report fusion; intra-modality similarity and cross-modal consistency constraints | Bidirectional | Longitudinal |
+| S074 | 2026 | Harrison.Rad 1.5 | Radiology / Multimodal Foundation Models | Text + 2D image + Structured clinical | F3 | Interleaved current images + priors + clinical-context token interaction | Bidirectional | Longitudinal |
+| S075 | 2026 | ALTER | Radiology / 3D CT | Text + 3D image | F5 | Global current/prior attention; region-level historical proxy retrieval; change-aware soft prompts | Bidirectional | Longitudinal |
+| S076 | 2026 | FHIR-RAG-MEDS | General Clinical Decision Support / FHIR | Text + EHR + Structured clinical + Labs | F1 | Structured patient context textualization + patient-specific evidence retrieval | Unidirectional | None |
+| S078 | 2024 | ChatGPT (GPT-4 with image input) | Dermatology | Text + 2D image | F3 | Other | Unidirectional | None |
+| S079 | 2023 | ChatDoctor | General medicine / dialogue | Text + 2D image | F3 | Cross-attention | Unidirectional | None |
+| S080 | 2025 | Regional encoder + retrieval + LLM refinement | Pathology / WSI | Text + WSI | F5 | Attention weighting + Other | Unidirectional | None |
+| S081 | 2024 | CH-ICL | Medical VQA / knowledge augmentation | Text + 2D image | F5 | Other | Iterative | None |
+| S086 | 2026 | DeepRare | Rare Disease / Genomics / Multimodal Clinical Reasoning | Text + EHR + Structured clinical + Labs | F5 | Phenotype/genetic/clinical evidence integration; web/tool retrieval; specialist-agent fusion | Iterative | Longitudinal |
+| S087 | 2026 | MED-COPILOT | Clinical Decision Support / EHR | Text + EHR + Structured clinical + Labs | F1 | Structured patient context + GraphRAG + semantic/keyword similar-patient retrieval | Iterative | Prior-current |
+| S088 | 2026 | MED-VRAG | Medical VQA / Multimodal Retrieval | Text + 2D image | F3 | Page-image patch retrieval; visual-text interaction; iterative multimodal evidence selection | Iterative | None |
+| S094 | 2026 | KG-Followup | Clinical Dialogue / Follow-Up Reasoning | Text + EHR + Structured clinical | F1 | Patient conversation/EHR serialization + concept/path retrieval from medical KG | Iterative | Prior-current |
+| S097 | 2026 | MediGRAF | EHR / Patient-Specific QA | Text + EHR + Structured clinical + Labs | F1 | Structured patient-graph traversal + unstructured narrative vector retrieval | Iterative | Longitudinal |
+| S098 | 2026 | AI Consult V1 | Primary Care / LMIC / Safety | Text + EHR + Structured clinical + Labs | F1 | Symptoms, vitals, history and other encounter data serialized into patient-specific clinical prompt | Unidirectional | None |
+| S100 | 2025 | MMed-RAG | Medical Vision-Language / Multimodal RAG | Text + 2D image | F3 | Image/text medical retrieval; adaptive multimodal context injection | Unidirectional | None |
+| S103 | 2025 | HCR / Gemini 2.5 Flash | Segmentation / safety | Text + 2D image | F4 | Decision-level LLM quality classification | Unidirectional | None |
+| S113 | 2025 | CAP | Critical Care / Fairness | Text + EHR + Structured clinical + Labs | F1 | Structured patient context + retrieved corrective cases | Unidirectional | None |
+| S116 | 2026 | Surgical VLM prompt-injection study | Surgery / VLM Security | Text + 2D image | F3 | Native video/image-text VLM fusion under attack | Iterative | None |
+| S119 | 2026 | MedPriv-Bench | Medical QA / Privacy | Text + Structured clinical + Labs | F1 | Sensitive patient context textualization for QA | Unidirectional | None |
+| S120 | 2025 | Abridge AI scribe | Ambulatory Care / Ambient AI | Text | F1 | Spoken encounter converted to structured note | Unidirectional | None |
+| S126 | 2026 | OpenManus / Manus | Clinical Agents / Safety | Text + 2D image + EHR + Structured clinical + Labs | F5 | Agentic fusion of text, multimodal inputs, tools, and external information | Iterative | Prior-current |
+| S127 | 2026 | AI Consult 2.0 | Primary Care / LMIC | Text + EHR + Structured clinical + Labs | F1 | Clinical variables and free-text encounter data serialized into patient-specific prompt | Unidirectional | None |
+| S129 | 2026 | Xuanwu-NeuroAid | Emergency Neurology | Text + EHR + Structured clinical + Labs | F1 | Vitals, labs and imaging reports converted to standardized textual descriptors | Unidirectional | None |
+| S130 | 2024 | DeepDR-LLM | Diabetes / Ophthalmology / Primary Care | Text + 2D image + EHR + Structured clinical + Labs | F5 | Retinal image analysis, lesion/DR grading, and clinical metadata integrated for individualized recommendation | Unidirectional | None |
+| S132 | 2025 | Ambient AI scribe | Clinical Documentation / Ambient AI | Text | F1 | Ambient audio transformed into structured clinical documentation | Unidirectional | None |
+| S133 | 2025 | Ambient AI | Clinical Documentation / Ambient AI | Text | F1 | Ambient encounter audio transformed into documentation | Unidirectional | None |
+| S134 | 2025 | Abridge ambient AI scribe | Ambulatory Care / Ambient AI | Text | F1 | Encounter audio and transcript synthesized into clinical note | Unidirectional | None |
+| S135 | 2025 | DAX Copilot | Ambulatory Care / Ambient AI | Text | F1 | Speech interpretation and structured note generation | Unidirectional | None |
+| S137 | 2024 | GPT-4 draft replies | Patient Portal / Ambulatory Care | Text + EHR + Structured clinical | F1 | Message text, structured patient elements, and prior clinic note combined in prompt | Unidirectional | Prior-current |
