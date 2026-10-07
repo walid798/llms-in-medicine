@@ -1,7 +1,6 @@
 Variable,Definition,Allowed Values / Coding Rule,Example / Note
 Fusion_Stage,Where multimodal fusion occurs in the pipeline.,F0 No fusion; F1 Input/data-level; F2 Representation-level; F3 Deep/token-level interactive; F4 Decision-level; F5 Hybrid/multi-stage,Code the dominant demonstrated fusion stage; use F5 only when multiple fusion stages are explicitly combined.
 Fusion_Operator,Mechanism used to combine or align modalities.,Concatenation; Linear projection; MLP; Cross-attention; Bidirectional cross-attention; Q-Former/query tokens; Gated fusion; Attention weighting; MoE; Graph fusion; Tensor/bilinear fusion; Textual transformation; Decision ensemble; Other; NR,Multiple values may be entered separated by semicolons.
-Fusion_Granularity,Granularity at which cross-modal information is integrated.,G1 Global; G2 Region-level; G3 Patch/token-level; G4 Concept-level; G5 Patient-level; G6 Longitudinal; G7 Multi-granular,Use G7 when the study explicitly combines two or more granularities.
 Fusion_Directionality,Direction of cross-modal information exchange.,Unidirectional; Bidirectional; Iterative; NR,Text queries image features = unidirectional; image↔text interaction = bidirectional.
 Temporal_Fusion,Whether information is fused across time.,None; Prior-current; Longitudinal; NR,Longitudinal requires multiple time points or encounters.
 Personalization_Level,Degree of demonstrated patient-specific capability.,P0 Population-level; P1 Static patient context; P2 Multimodal patient contextualization; P3 Longitudinal personalization; P4 Adaptive patient-specific reasoning; P5 Clinically validated personalized decision support,"Assign conservatively from demonstrated methods/evidence, not authors' claims."
@@ -13,4 +12,3 @@ Fusion_Gain_Eligible,Whether multimodal-vs-unimodal results are scientifically c
 Delta_Fusion,Performance gain attributable to fusion when eligible.,Numeric; leave blank when not eligible,Higher-is-better: multimodal − strongest unimodal. Lower-is-better: strongest unimodal − multimodal.
 Coding_Confidence,Reviewer confidence in the extracted/coded value.,High; Moderate; Low,Use Low when architecture or evaluation details are ambiguous.
 Evidence_Location,Where the coded evidence appears in the source paper.,Free text,Example: Methods §3.2; Fig. 2; Table 4; Supplementary Table S3.
-NR,Standard missing-information code.,NR = Not Reported,Use NR instead of guessing or inferring missing details.
