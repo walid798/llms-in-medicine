@@ -1,5 +1,5 @@
 {
-  "survey_title": "A Systematic Review of LLMs in Clinical Medicine Across Multimodal Architectures, Benchmarks, and Personalized Healthcare",
+  "survey_title": "Clinical Large Language Models Beyond Benchmarks: A Systematic Review of Multimodal Fusion, Personalization, and Translational Evidence",
   "corpus_size": 145,
   "publication_years": {
     "2022": 3,
@@ -9,10 +9,10 @@
     "2026": 53
   },
   "publication_types_raw": {
-    "Journal": 82,
-    "Conference": 22,
-    "Preprint": 39,
-    "Conference/Preprint": 1,
+    "Journal": 85,
+    "Conference": 34,
+    "Preprint": 25,
+    "Conference/Preprint": 0,
     "Book Chapter": 1
   },
   "primary_paradigms": {
@@ -22,16 +22,19 @@
   },
   "annual_primary_paradigms": {
     "2022": {
-      "Generative LLMs": 3
+      "Generative LLMs": 3,
+      "Reasoning / agentic systems": 0,
+      "Multimodal LLMs": 0
     },
     "2023": {
       "Generative LLMs": 4,
+      "Reasoning / agentic systems": 0,
       "Multimodal LLMs": 2
     },
     "2024": {
       "Generative LLMs": 8,
-      "Multimodal LLMs": 14,
-      "Reasoning / agentic systems": 3
+      "Reasoning / agentic systems": 3,
+      "Multimodal LLMs": 14
     },
     "2025": {
       "Generative LLMs": 26,
@@ -39,19 +42,19 @@
       "Multimodal LLMs": 18
     },
     "2026": {
+      "Generative LLMs": 14,
       "Reasoning / agentic systems": 25,
-      "Multimodal LLMs": 14,
-      "Generative LLMs": 14
+      "Multimodal LLMs": 14
     }
   },
   "fusion_stage_counts": {
     "F0": 65,
-    "F2": 9,
-    "F5": 19,
-    "NR": 8,
-    "F3": 24,
     "F1": 19,
-    "F4": 1
+    "F2": 9,
+    "F3": 24,
+    "F4": 1,
+    "F5": 19,
+    "NR": 8
   },
   "fusion_active_F1_F5": {
     "n": 72,
@@ -74,13 +77,12 @@
     "percent": 17.9
   },
   "personalization_raw": {
+    "P0": 72,
     "P1": 22,
-    "P0": 70,
+    "P2": 9,
     "P3": 16,
     "P4": 25,
-    "P2": 9,
-    "P5": 1,
-    "No": 2
+    "P5": 1
   },
   "personalization_P1_P5": {
     "n": 73,
@@ -91,31 +93,25 @@
     "percent": 29.0
   },
   "translational_evidence": {
-    "T2": 17,
+    "T0": 80,
     "T1": 29,
-    "T0": 78,
+    "T2": 17,
     "T3": 7,
     "T4": 11,
     "T5": 1,
-    "NR": 2
+    "NR": 0
   },
   "T3_T5": {
     "n": 19,
     "percent": 13.1
   },
   "risk_mitigation_evidence": {
-    "R3": 76,
-    "R0": 36,
-    "R2": 5,
+    "R0": 37,
     "R1": 1,
+    "R2": 6,
+    "R3": 76,
     "R4": 19,
-    "R5": 6,
-    "No": 2
+    "R5": 6
   },
-  "source_workbook": "data/Final_145_Studies_FROZEN.xlsm",
-  "notes": [
-    "S001-S145 identifiers are preserved from the frozen final evidence matrix.",
-    "Derived repository metadata supplements S007 (DeepMed) using the peer-reviewed ACL 2026 record; the frozen workbook is not modified.",
-    "Standalone encoder-only PLMs are contextual background rather than primary quantitative corpus entries unless embedded in an LLM-centered system."
-  ]
+  "source_workbook": "Final_145_Studies_FROZEN.xlsx",
 }

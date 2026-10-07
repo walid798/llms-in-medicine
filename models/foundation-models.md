@@ -1,6 +1,6 @@
 # 🧱 Foundation Models
 
-A chronological catalogue of general-purpose and open-weight foundation models that underpin LLM research in clinical medicine. Part of the survey: *"Large Language Models in Clinical Medicine — A Systematic Review of Multimodal Architectures, Benchmarks, and Personalized Healthcare Applications"*.
+A chronological catalogue of general-purpose and open-weight foundation models that underpin LLM research in clinical medicine. Part of the survey: *"Clinical Large Language Models Beyond Benchmarks: A Systematic Review of Multimodal Fusion, Personalization, and Translational Evidence"*.
 
 > **Last updated:** April 2026 · **Total models listed:** 24 · **Timeline:** 2017–2025
 
